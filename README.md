@@ -29,7 +29,7 @@ for(float angle = 0; angle < (PI * 10); angle+= 0.01){
     addvertex(0, new_prim, new_pt);
 }
 ```
-##3. Waves
+## 3. Waves
 ```
 vector pos = set(0, 0, 0);
 int new_prim = addprim(0, "polyline");
@@ -69,6 +69,38 @@ for(float angle = 0; angle < (PI * 2); angle += 0.0001){
     pos = (set(firstCircleX+secondCircleX, firstCircleY+secondCircleY, 0));
 
     int new_pt = addpoint(0, pos);    
+    addvertex(0, new_prim, new_pt);
+}
+```
+## 5. Many Circles Adding (Frequency Cancel Anim)
+```
+vector pos = set(0, 0, 0);
+vector pos2 = set(0, 0, 0);
+int new_prim = addprim(0, "polyline");
+int new_prim2 = addprim(0, "polyline");
+
+for(float angle = 0; angle < (PI * 2); angle += 0.001){
+    // 1st circle
+    float firstCircleX = cos(angle);
+    float firstCircleY = sin(angle);
+    // 2nd circle
+    float secondCircleX = (1.0f/16.0f) * cos(angle * 8.0f + @Time * 0.2f);
+    float secondCircleY = (1.0f/16.0f) * sin(angle * 8.0f + @Time * 0.2f);
+    // 3nd circle
+    float thirdCircleX = (1.0f/16.0f) * cos(angle * 8.0f - @Time * 0.2f);
+    float thirdCircleY = (1.0f/16.0f) * sin(angle * 8.0f - @Time * 0.2f);
+ 
+    // first circle
+    pos = (set(firstCircleX, firstCircleY, 0));
+    // second circle
+    pos = (set(secondCircleX, secondCircleY, 0));
+    // first circle + second circle
+    pos = (set(firstCircleX+secondCircleX, firstCircleY+secondCircleY, 0));
+    
+    // first circle + second circle + third circle
+    pos = (set(firstCircleX+secondCircleX+thirdCircleX, firstCircleY+secondCircleY+thirdCircleY, 0));
+    
+    int new_pt = addpoint(0, pos);  
     addvertex(0, new_prim, new_pt);
 }
 ```
