@@ -104,7 +104,33 @@ for(float angle = 0; angle < (PI * 2); angle += 0.001){
     addvertex(0, new_prim, new_pt);
 }
 ```
-## 5. Elipsoid Rotation
+## 6. Elipsoid Anim
+```
+vector pos = set(0, 0, 0);
+vector pos2 = set(0, 0, 0);
+int new_prim = addprim(0, "polyline");
+int new_prim2 = addprim(0, "polyline");
+
+for(float angle = 0; angle < (PI * 64); angle += 0.001){
+    // 1st circle
+    float firstCircleX = cos(angle);
+    float firstCircleY = sin(angle);
+    // 2nd circle
+    float secondCircleX = cos(angle * 0.0625 * @Time) * 2;
+    float secondCircleY = sin(angle * 0.0625 * @Time);
+
+    // first circle
+    pos = (set(firstCircleX, firstCircleY, 0));
+    // second circle
+    pos = (set(secondCircleX, secondCircleY, 0));
+    // first circle + second circle
+    pos = (set(firstCircleX+secondCircleX, firstCircleY+secondCircleY, 0));    
+    
+    int new_pt = addpoint(0, pos);      
+    addvertex(0, new_prim, new_pt);
+}
+```
+## 7. Elipsoid Rotation
 [MATH - rotation using sin cos](https://www.siggraph.org/education/materials/HyperGraph/modeling/mod_tran/2drota.htm)
 * Attrib Wrangle run over Detail (only once)
 ```
@@ -133,7 +159,7 @@ for(float rotangle = 0; rotangle < 2 * PI; rotangle += 0.1){
     }
 }
 ```
-## 6. Sphere
+## 8. Sphere
 [MATH - sphere using sin and cos](http://mathworld.wolfram.com/Sphere.html)
 ```
 vector pos = set(0, 0, 0);
