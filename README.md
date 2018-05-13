@@ -29,8 +29,21 @@ for(float angle = 0; angle < (PI * 10); angle+= 0.01){
     addvertex(0, new_prim, new_pt);
 }
 ```
+##3. Waves
+```
+vector pos = set(0, 0, 0);
+int new_prim = addprim(0, "polyline");
 
-## 3. Elipsoid rotation
+for(float angle = 0; angle < (PI * 10); angle+= 0.01){
+    float x = cos(angle) + angle;
+    float y = sin(angle);  
+    
+    pos = (set(x, y, 0));
+    int new_pt = addpoint(0, pos);
+    addvertex(0, new_prim, new_pt);
+}
+```
+## 4. Elipsoid rotation
 [MATH - rotation using sin cos](https://www.siggraph.org/education/materials/HyperGraph/modeling/mod_tran/2drota.htm)
 * Attrib Wrangle run over Detail (only once)
 ```
@@ -59,9 +72,7 @@ for(float rotangle = 0; rotangle < 2 * PI; rotangle += 0.1){
     }
 }
 ```
-
-
-## 4. Sphere
+## 5. Sphere
 [MATH - sphere using sin and cos](http://mathworld.wolfram.com/Sphere.html)
 ```
 vector pos = set(0, 0, 0);
