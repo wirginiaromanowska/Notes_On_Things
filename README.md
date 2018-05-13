@@ -177,7 +177,7 @@ for ( float theta = 0.0f; theta < PI * 2.0f; theta += 0.1 ) {
     }
 }
 ```
-## 9. Add any point attributes
+## 9. Add Point Attributes
 ```
 vector pos = set(0, 0, 0);
 
