@@ -1,8 +1,9 @@
 # houdini
 
-Links:
 
-1. [MATH - rotation using sin cos](https://www.siggraph.org/education/materials/HyperGraph/modeling/mod_tran/2drota.htm)
+## 1. ELIPSOID rotation
+[MATH - rotation using sin cos](https://www.siggraph.org/education/materials/HyperGraph/modeling/mod_tran/2drota.htm)
+* Attrib Wrangle run over Detail (only once)
 ```
 vector pos = set(0, 0, 0);
 int new_prim = addprim(0, "polyline");
@@ -31,7 +32,8 @@ for(float rotangle = 0; rotangle < 2 * PI; rotangle += 0.1){
 ```
 
 
-2. [MATH - sphere using sin and cos](http://mathworld.wolfram.com/Sphere.html)
+## 2. Sphere
+[MATH - sphere using sin and cos](http://mathworld.wolfram.com/Sphere.html)
 ```
 vector pos = set(0, 0, 0);
 int new_prim = addprim(0, "polyline");
