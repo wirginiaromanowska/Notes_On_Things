@@ -177,3 +177,43 @@ for ( float theta = 0.0f; theta < PI * 2.0f; theta += 0.1 ) {
     }
 }
 ```
+## 9. Add any point attributes
+```
+vector pos = set(0, 0, 0);
+
+float loops_f1 = chf("Loops_Frequency_1");
+float loops_f2 = chf("Loops_Frequency_2");
+float loops_f3 = chf("Loops_Frequency_3");
+
+vector loops_spread = chf("Loops_Spread");
+float loop_offset = chf("loop_Offset");
+
+float max_iter = chf("Max_Iterations");
+
+int new_prim = addprim(0, "polyline");
+
+vector noise_freq = chv("Noise_Frequency");
+vector noise_offset = chv("Noise_Offset");
+vector noise_ampl = chv("Noise_Amplitude");
+
+for(float angle = 0; angle < max_iter; angle+= 0.01){
+    float x = cos(angle * loops_f1) * (angle/loops_spread) + (angle/loop_offset) ;
+    float y = sin(angle * loops_f2) * (angle/loops_spread) ;
+    float z = cos(angle * loops_f3) * (angle/loops_spread) ;
+    
+    vector loops_norm = set(angle/max_iter, angle/max_iter, angle/max_iter);
+    
+    vector noise_ampl_norm = noise_ampl * loops_norm;
+    vector add_noise = curlnoise((loops_norm * noise_freq) + noise_offset) * noise_ampl_norm;
+        
+    pos = (set(x, y, z)) + add_noise;
+    int new_pt = addpoint(0, pos);
+    addvertex(0, new_prim, new_pt);
+    
+    vector color = loops_norm;
+    setpointattrib(0, "Cd", new_pt, color);
+    
+    vector thinkness = loops_norm;
+    setpointattrib(0, "width", new_pt, thinkness);
+}
+```
