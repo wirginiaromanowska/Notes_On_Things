@@ -7,7 +7,7 @@ Links:
 * rotated_y = y cos f + x sin f
 
 
-2. [MATH - sphere using sin and cos] (http://mathworld.wolfram.com/Sphere.html)
+2. [MATH - sphere using sin and cos](http://mathworld.wolfram.com/Sphere.html)
 * x	=	r * cos f * sin t
 * y = r * sin f * cos t
 * z = r * cos t
