@@ -1,7 +1,7 @@
 # houdini
 
 
-## 1. ELIPSOID rotation
+## 1. Elipsoid rotation
 [MATH - rotation using sin cos](https://www.siggraph.org/education/materials/HyperGraph/modeling/mod_tran/2drota.htm)
 * Attrib Wrangle run over Detail (only once)
 ```
