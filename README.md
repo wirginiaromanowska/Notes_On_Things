@@ -211,3 +211,4 @@ for(float angle = 0; angle < max_iter; angle+= 0.01){
 ```
 10. Random notes:
 - Ocean tools usee fft (fast fourier transforms) and points - points can be scattered on any surface and they can have orientation - ocean doesn;t have to be flat
+20. Flip Tank - can use sucktion force on colliders to make them look like water is falling of them 
