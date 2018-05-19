@@ -212,3 +212,10 @@ for(float angle = 0; angle < max_iter; angle+= 0.01){
 10. Random notes:
 - Ocean tools usee fft (fast fourier transforms) and points - points can be scattered on any surface and they can have orientation - ocean doesn;t have to be flat
 20. Flip Tank - can use sucktion force on colliders to make them look like water is falling of them 
+21. Favourite looks filters:
+- Blockbuster - Classinc Tension (blur on the edges)
+- Bloockbuster Cool - Classic Zombies
+22. Adobe Media Encoder settings to export 4k HDR video to vimeo
+23. Funny gifs: 
+- [this is not how it works(https://media1.tenor.co/images/71e4d7f011bfeafc9b4c5d5e393d48ee/tenor.gif?itemid=5332816)
+- Blockbuster Warm - Harford Pills
