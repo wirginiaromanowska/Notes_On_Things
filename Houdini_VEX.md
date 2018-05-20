@@ -105,3 +105,12 @@ fit01(direction, {-1, -1, -1}, {1, 1, 1});
 vector pointpos = point(1, "p", 0);
 ```
 - point(Imput_Number, Name_Of_Attribute, Point_Number)
+## 10. Interesting VEX functions
+```
+vector frequency = chv("Frequency");
+vector offset = chv("Offset");
+
+vector dir = curlnoise((@P * frequency) + offset);
+```
+- curlnoise function - perlin
+- curlxnoise function - simplex
