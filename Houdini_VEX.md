@@ -69,3 +69,10 @@ addpoint(0, @P);
 ## 4. Transform and pivot set to center
 - (-$CEX) (-$CEY) and (-$CEZ) in Trandlate
 - $CEX $CEY and $CEZ in Pivot Translate
+## 5. Variable types
+```
+int someNameA = 5;
+float someNameB = 2.3;
+string someNameC = "Coolbert";
+vector someNameD = {2.5, 1.7, 10.5}
+```
