@@ -3,7 +3,15 @@
 ## 2. Add point
 ```
 addpoint(0, @P);
+addpoiny(0, {0, 0, 0});
 ```
+- does not return a value, but creates a point
+- "0" - which geometry string to create this point on
+- @P - whcih position
+```
+int newpt = addpoint(0,{0, 0, 0))
+```
+- returns a value
 ## 3. VEX Attributes (from Entagma)
 ### a. General
 - int @ptnum Point Number
