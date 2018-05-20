@@ -99,3 +99,9 @@ fit01(direction, {-1, -1, -1}, {1, 1, 1});
 ```
 - fit(Variable_To_Fit, OldMin, OldMax, NewMin, NewMax)
 - fit01(Variable_To_Fit, NewMin, NewMax) - assumes old min and max are 0 and 1
+
+## 9. Reading attribute from second input in wrangle
+```
+vector pointpos = point(1, "p", 0);
+```
+- point(Imput_Number, Name_Of_Attribute, Point_Number)
