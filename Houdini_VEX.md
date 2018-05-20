@@ -4,7 +4,7 @@
 ```
 addpoint(0, @P);
 ```
-## 3. VEX Attributes
+## 3. VEX Attributes (from Entagma)
 ### a. General
 - int @ptnum Point Number
 - int @numpt Total number of points
@@ -67,3 +67,5 @@ addpoint(0, @P);
 - matrix	 @transform	 Transformation matrix (used e.g. in Copy-SOP)
 - vec3	 @pivot	 Local pivot point for instance
 ## 4. Transform and pivot set to center
+- (-$CEX) (-$CEY) and (-$CEZ) in Trandlate
+- $CEX $CEY and $CEZ in Pivot Translate
