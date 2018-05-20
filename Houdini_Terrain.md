@@ -1,4 +1,4 @@
-(GDC2018 Ari Danesh Terrains)[https://vimeo.com/262425408]
+[GDC2018 Ari Danesh Terrains](https://vimeo.com/262425408)
 
 - Dense Volume
 - 1 layer high
