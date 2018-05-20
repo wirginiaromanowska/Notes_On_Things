@@ -6,8 +6,7 @@ addpoint(0, @P);
 addpoiny(0, {0, 0, 0});
 ```
 - does not return a value, but creates a point
-- "0" - which geometry string to create this point on
-- @P - whcih position
+- addpoint(geometry_string, position)
 ```
 int newpt = addpoint(0,{0, 0, 0))
 ```
@@ -83,4 +82,13 @@ int someNameA = 5;
 float someNameB = 2.3;
 string someNameC = "Coolbert";
 vector someNameD = {2.5, 1.7, 10.5}
+```
+## 6. Random
+```
+float pscale = rand(@ptnum);
+vector direction = rand(@ptnum); //will create rand float for x, y and z direction
+```
+## 7. Channel Reference
+```
+float slider = chf("Name_Of_SLider");
 ```
