@@ -66,3 +66,4 @@ addpoint(0, @P);
 - vec3	 @trans	 Translation of instance
 - matrix	 @transform	 Transformation matrix (used e.g. in Copy-SOP)
 - vec3	 @pivot	 Local pivot point for instance
+## 4. Transform and pivot set to center
