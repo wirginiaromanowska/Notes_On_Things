@@ -90,5 +90,12 @@ vector direction = rand(@ptnum); //will create rand float for x, y and z directi
 ```
 ## 7. Channel Reference
 ```
-float slider = chf("Name_Of_SLider");
+float slider = chf("Name_Of_Slider");
 ```
+## 8. Fit Function
+```
+fit(direction, {0, 0, 0}, {1, 1, 1}, {-1, -1, -1}, {1, 1, 1});
+fit01(direction, {-1, -1, -1}, {1, 1, 1});
+```
+- fit(Variable_To_Fit, OldMin, OldMax, NewMin, NewMax)
+- fit01(Variable_To_Fit, NewMin, NewMax) - assumes old min and max are 0 and 1
