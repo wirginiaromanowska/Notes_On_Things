@@ -1,1 +1,2 @@
 - U to go up
+- node graph/view/show dependencies for selected nodes/or all nodes - to see dependencies (links) in dops
