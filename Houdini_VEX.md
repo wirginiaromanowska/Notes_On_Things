@@ -114,3 +114,8 @@ vector dir = curlnoise((@P * frequency) + offset);
 ```
 - curlnoise function - perlin
 - curlxnoise function - simplex
+## 11. Arrays
+- accessing myArray[element_number] = value
+```
+myArray[1] = 42;
+```
