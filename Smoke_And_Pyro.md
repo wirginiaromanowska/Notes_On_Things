@@ -16,4 +16,6 @@
 ```
 ## 3. Rules and Advice
 - avoid transforms at the object level (for emitters, colliders etc) in case you need to scale whole sim from cm to m later
-
+## 4. Fast moving trails
+- trail SOP: preserve original, trail lenght 5 (frames)
+- add SOP: under poligons by group, by attribute, and attribute is id
