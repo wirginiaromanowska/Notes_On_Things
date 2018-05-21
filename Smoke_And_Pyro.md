@@ -15,5 +15,5 @@
 `opimputpath("../",0)`
 ```
 ## 3. Rules and Advice
-- avoid transforms at the object level (for emitters, colliders etc)
+- avoid transforms at the object level (for emitters, colliders etc) in case you need to scale whole sim from cm to m later
 
