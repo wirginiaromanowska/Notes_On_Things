@@ -10,6 +10,13 @@
 - bindings: disturb firld is vector field on, disturb field - vel, threshold field density
 - allow editing, in disturb vector field: control field node needs to be type vector, after append lenght node
 ## 2. Gas particle to field
+### a) In DOP
+- smoke object
+- to apply data
+- to smoke solver
+- sop geo node to second imput of apply data
+- gas resize fluid dynamic to second imput of smoke solver
+
 - provide sop path
 ```
 `opimputpath("../",0)`
