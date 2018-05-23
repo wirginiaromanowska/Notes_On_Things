@@ -73,9 +73,12 @@ int newpt = addpoint(0,{0, 0, 0))
 - vec3	 @trans	 Translation of instance
 - matrix	 @transform	 Transformation matrix (used e.g. in Copy-SOP)
 - vec3	 @pivot	 Local pivot point for instance
-## 4. Transform and pivot set to center
+## 4. Transform and pivot 
+### a) set to center
 - (-$CEX) (-$CEY) and (-$CEZ) in Trandlate
 - $CEX $CEY and $CEZ in Pivot Translate
+### b) have bottom on the floor
+- in Center Y: ch("sizey")/2
 ## 5. Variable types
 ```
 int someNameA = 5;
