@@ -19,3 +19,8 @@
 ## 4. Fast moving trails
 - trail SOP: preserve original, trail lenght 5 (frames)
 - add SOP: under poligons by group, by attribute, and attribute is id
+- resample with max segments set to what would be max substeps
+- point jitter - makes it more noise
+- wire this directly to DOPnet
+
+
