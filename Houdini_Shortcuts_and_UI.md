@@ -1,2 +1,6 @@
 - U to go up
 - node graph/view/show dependencies for selected nodes/or all nodes - to see dependencies (links) in dops
+- To see whites above 1 in viewport:
+  - HDR rendering in viewport is in D/Effects - switches viewport to 16bit  
+  - In perspective viewpoer under perspective turn on "correction toolbar" - bar will show up at the btoom of perspective view
+  - switch addaptive full arnge on the color (most right button)
