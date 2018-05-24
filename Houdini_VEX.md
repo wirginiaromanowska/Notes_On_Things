@@ -24,7 +24,7 @@ int newpt = addpoint(0,{0, 0, 0))
 - int	 @numvtx	 Total number of vertices
 ### b. Geometry
 - vec3	 @P	 Point/Primitive Position
-- vec3	 @N	 Point/Primitive/Vertex Normal
+- vec3	 @N	 Point/Primitive/Vertex Normal - to initialize normals @N = @N
 - vec3	 @v	 Velocity (e.g. for motion blur / in particle systems)
 - float	 @pscale	 Uniform scale. Used in copy-SOP or particle systems
 - vec3	 @scale	 Non-Uniform scale. For use see pscale
@@ -108,6 +108,13 @@ fit01(direction, {-1, -1, -1}, {1, 1, 1});
 vector pointpos = point(1, "p", 0);
 ```
 - point(Imput_Number, Name_Of_Attribute, Point_Number)
+```
+@P // fetch point position from first imput
+@opinmut1_P // fetch attribute from second input
+
+f@foo // fetch first input foo
+f@opinput1_foo // fetch second input foo
+```
 ## 10. Interesting VEX functions
 ```
 vector frequency = chv("Frequency");
