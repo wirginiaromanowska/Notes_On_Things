@@ -1,5 +1,8 @@
 ## 1. Writing VEX
 - alt+E to open external editor
+- generally all attributes initialize to 0 by default
+- color initializes to 1, 1, 1 by default
+- normal @N - computes surface normal when initialized
 ## 2. Add point
 ```
 addpoint(0, @P);
@@ -104,13 +107,19 @@ fit01(direction, {-1, -1, -1}, {1, 1, 1});
 - fit01(Variable_To_Fit, NewMin, NewMax) - assumes old min and max are 0 and 1
 
 ## 9. Reading attribute from second input in wrangle
-```
-vector pointpos = point(1, "p", 0);
-```
+### a) Using point function
+- use with different geo (grid and sphere)
 - point(Imput_Number, Name_Of_Attribute, Point_Number)
 ```
+vector pointpos = point(1, "p", 0);
+vector pointpos = point(1, "P", @ptnum);
+```
+### b) Wagner way 
+- use if points match 1:1 (e.g. grid and grid etc)
+- if it's not input 0 then have to declare with variable type (f, v, i s etc)
+```
 @P // fetch point position from first imput
-@opinmut1_P // fetch attribute from second input
+v@opinmut1_P // fetch attribute from second input
 
 f@foo // fetch first input foo
 f@opinput1_foo // fetch second input foo
