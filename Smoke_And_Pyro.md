@@ -10,7 +10,12 @@
 - bindings: disturb firld is vector field on, disturb field - vel, threshold field density
 - allow editing, in disturb vector field: control field node needs to be type vector, after append lenght node
 ## 2. Gas particle to field
-### a) In DOP
+### a)In SOPs
+- create attribute on points/particles etc.
+- name it divergence or temperature etc.
+- set value to something 0.2
+
+### b) In DOP
 - smoke object
 - to apply data
 - to pyro solver
