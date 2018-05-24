@@ -2,3 +2,11 @@
 ## 2. Point jitter (quick noise on curves, trails etc)
 ## 3. Measure 
 - can measure geometry curvature
+## 4. Attrb promote
+- to find min and max attrb value (e.g. curvature) through all the points
+- name of the attrib (curvature)
+- promote from point to detail
+- promotion method max or min
+- change original name to curve_max for example
+- don't have to delete original
+
