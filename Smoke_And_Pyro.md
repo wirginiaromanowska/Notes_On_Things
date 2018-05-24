@@ -16,6 +16,10 @@
 - to smoke solver
 - sop geo node to second imput of apply data
 - gas resize fluid dynamic to second imput of smoke solver
+- gas particle to field to second imput (merge with the one above)
+  - destination field is fuel
+  - attribute pScale
+  
 
 - provide sop path
 ```
