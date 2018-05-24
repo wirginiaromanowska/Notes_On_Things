@@ -13,12 +13,15 @@
 ### a) In DOP
 - smoke object
 - to apply data
-- to smoke solver
+- to pyro solver
 - sop geo node to second imput of apply data
+  - bring the points
+  - set to update always
 - gas resize fluid dynamic to second imput of smoke solver
 - gas particle to field to second imput (merge with the one above)
-  - destination field is fuel
-  - attribute pScale
+  - destination field is fuel or temperature or velocity
+  - vel goes to vel update in solver (3rd imput)
+  - attribute fuel, temp, vel (or v if it's name that way on the geo)
   
 
 - provide sop path
@@ -27,11 +30,19 @@
 ```
 ## 3. Rules and Advice
 - avoid transforms at the object level (for emitters, colliders etc) in case you need to scale whole sim from cm to m later
+- when there is error in DOPs
+  - right click on node will clear the error
+  - you can see what error says only in tree view (right click)
+  - vel is non divergent - so will not expand or shrink - this is why it needs to go to vel update input int he pyro solver
+  - only vel that can go in pre-solve imput in pyro solver is curl noise
+  - how you mix in vel matters
+    - try to set it to maximum instead of add
 ## 4. Fast moving trails
 - trail SOP: preserve original, trail lenght 5 (frames)
 - add SOP: under poligons by group, by attribute, and attribute is id
 - resample with max segments set to what would be max substeps
 - point jitter - makes it more noise
 - wire this directly to DOPnet
-
+## 5. Pyro solver parameters
+- boyancy lift - takes direction * amount of boyancy * current temperature and adds that to current vel
 
