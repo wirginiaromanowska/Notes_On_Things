@@ -124,6 +124,11 @@ v@opinmut1_P // fetch attribute from second input
 f@foo // fetch first input foo
 f@opinput1_foo // fetch second input foo
 ```
+### c) Accessing attrib of detail when running wrangle over points
+- by default you can access only type of attribute the wrangle runs over
+```
+float max_curvature = detail(1, "curvature_max", 0);
+```
 ## 10. Interesting VEX functions
 ```
 vector frequency = chv("Frequency");
