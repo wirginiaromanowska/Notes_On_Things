@@ -122,3 +122,14 @@ vector dir = curlnoise((@P * frequency) + offset);
 ```
 myArray[1] = 42;
 ```
+## 12. If
+- short version
+```
+int condition = (@P.x > 0) ? 1: 3;
+@Cd = set(condition, 0, 0); // write condition to red color
+```
+## 13. Color
+- by default initialized to 1, 1, 1
+- if chenging only @Cd.x = variable, then assume that G and B are white
+- have to manually initialize the color first to black @Cd = {0, 0, 0}
+- or can work on color as vector @Cd = (variable, 0, 0), not @Cd.x = variable
