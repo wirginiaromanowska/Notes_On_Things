@@ -45,4 +45,5 @@
 - wire this directly to DOPnet
 ## 5. Pyro solver parameters
 - boyancy lift - takes direction * amount of boyancy * current temperature and adds that to current vel
+- gas released = expansion - often animated for explosion (high to lower to zero)
 
