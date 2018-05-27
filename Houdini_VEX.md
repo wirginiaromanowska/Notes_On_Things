@@ -226,17 +226,28 @@ i@sum = sum;
 i[]@my_array = my_array;
 ```
 ## 15. Near Points
+- nearpoints (geometry string, position of point, max distance)
 ```
 int npts[] = nearpoints(0, v@P, maxdist);
 ```
-- nearpoints (geometry string, position of point, max distance)
+- nearpoints (geometry string, position of point, max distance, max point to search)
+```
+int npts[] = nearpoints(0, v@P, maxdist, maxpt);
+```
 ## 16. For Each
 ```
 foreach(int npt; npts){ //will go through all array npts and load each element in to variable npt
     addprim(0, "polyline", @ptnum, npt);
 }
 ```
-# 17. Logic
+## 17. Logic
 - || - or
 - == - if equal
 - && - and
+## 18. Remove random points - removepoint()
+```
+float rnum = rand(@ptnum + 126);
+if(rnum < 0.5){
+removepoint(0, @ptnum);
+}
+```
