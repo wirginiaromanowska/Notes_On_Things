@@ -208,3 +208,9 @@ i[]@my_array = my_array;
 int npts[] = nearpoints(0, v@P, maxdist);
 ```
 - nearpoints (geometry string, position of point, max distance)
+## 16. For Each
+```
+foreach(int npt; npts){ //will go through all array npts and load each element in to variable npt
+    addprim(0, "polyline", @ptnum, npt);
+}
+```
