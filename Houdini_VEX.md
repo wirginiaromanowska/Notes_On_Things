@@ -174,6 +174,28 @@ removeindex(npts, 0); //removes element 0 (first element) form array
 int condition = (@P.x > 0) ? 1: 3;
 @Cd = set(condition, 0, 0); // write condition to red color
 ```
+- if else
+```
+s@out = "";
+
+float a = 4.0;
+float b = 5.0;
+float c = 6.0;
+
+if(b < a) {
+s@out = "true";
+}
+else {
+s@out = "false";
+}
+```
+- if else short-ish (when there is only one line of code to execute
+```
+if(b < a)
+    s@out = "true";
+else
+    s@out = "false";
+```
 ## 13. Color
 - by default initialized to 1, 1, 1
 - if chenging only @Cd.x = variable, then assume that G and B are white
@@ -214,3 +236,7 @@ foreach(int npt; npts){ //will go through all array npts and load each element i
     addprim(0, "polyline", @ptnum, npt);
 }
 ```
+# 17. Logic
+- || - or
+- == - if equal
+- && - and
