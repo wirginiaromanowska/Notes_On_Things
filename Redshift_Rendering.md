@@ -7,3 +7,5 @@
 - Beauty = DiffuseFilter*DiffuseLightingRaw + DiffuseFilter*GlobalIlluminationRaw + DiffuseFilter*SubsurfaceScatteringRaw + SpecularLighting + Reflections + Refractions + Emission + Caustics
 - If using "Caustics Raw" instead of "Caustics", these would have to also be multiplied by "Diffuse Filter".
 - (Redshift Doc)[https://docs.redshift3d.com/display/RSDOCS/AOV+Tutorial?product=houdini]
+## 4. Toon
+- use AO and Curvature in order to achieve a ink/sketch style render
