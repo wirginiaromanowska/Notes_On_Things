@@ -164,6 +164,10 @@ i@val3 = pop(my_array, 2); // removes element 2 from array and assigns it to val
 ```
 int numelem = len(my_array);
 ```
+- removeindex - removing any element from the array
+```
+removeindex(npts, 0); //removes element 0 (first element) form array
+```
 ## 12. If
 - short version
 ```
@@ -199,3 +203,8 @@ sum += my_array[i];
 i@sum = sum;
 i[]@my_array = my_array;
 ```
+## 15. Near Points
+```
+int npts[] = nearpoints(0, v@P, maxdist);
+```
+- nearpoints (geometry string, position of point, max distance)
