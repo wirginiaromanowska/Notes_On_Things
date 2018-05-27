@@ -251,3 +251,6 @@ if(rnum < 0.5){
 removepoint(0, @ptnum);
 }
 ```
+## 20 Do while vs while
+- do while executes at least once unconditionally because condition is at the end
+- while loops check condition first (like for loops), so they are not executed if the condition is not meet
