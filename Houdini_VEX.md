@@ -140,9 +140,29 @@ vector dir = curlnoise((@P * frequency) + offset);
 - curlnoise function - perlin
 - curlxnoise function - simplex
 ## 11. Arrays
-- accessing myArray[element_number] = value
+- declaring array as variable
 ```
-myArray[1] = 42;
+int my_array[]; //declaring array variable
+i[]@my_array = my_array; //making this a point attribute
+```
+- push adds elements to the end of the array
+```
+push(my_array, 11);
+push(my_array, 22);
+push(my_array, 76);
+```
+- accessing accessing a value in an array
+```
+i@val = my_array[1];
+```
+- pop removes last (or specific) element in an array
+```
+i@val2 = pop(my_array); //removes last value in the array and asigns it to val2
+i@val3 = pop(my_array, 2); // removes element 2 from array and assigns it to val3
+```
+- lim returns number of elements in an array
+```
+int numelem = len(my_array);
 ```
 ## 12. If
 - short version
@@ -155,3 +175,27 @@ int condition = (@P.x > 0) ? 1: 3;
 - if chenging only @Cd.x = variable, then assume that G and B are white
 - have to manually initialize the color first to black @Cd = {0, 0, 0}
 - or can work on color as vector @Cd = (variable, 0, 0), not @Cd.x = variable
+## 14. For Loops - with arrays
+```
+int my_array[];
+
+int maxiter = rand(@ptnum + 50) * 20 + 1;
+
+for(int i = 1; i < maxiter; i++){
+    push(my_array, i);
+}
+
+i[]@my_array = my_array;
+```
+```
+int my_array[] = i[]@my_array;
+int numelem = len(my_array); // lim returns number of elements in an array
+int sum = 0;
+
+for(int i = 0; i < numelem; i++){
+sum += my_array[i];
+}
+
+i@sum = sum;
+i[]@my_array = my_array;
+```
