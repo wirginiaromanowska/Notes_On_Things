@@ -3,6 +3,7 @@
 ## 2. Setup for AOV Z-Depth:
 - turn off progressive rendering in IPR pane
 - use render view pane to preview the AOV's
+- fon Nuke set to Min Depth
 ## 3. Formula for the beauty pass from AOV's
 - Beauty = DiffuseFilter*DiffuseLightingRaw + DiffuseFilter*GlobalIlluminationRaw + DiffuseFilter*SubsurfaceScatteringRaw + SpecularLighting + Reflections + Refractions + Emission + Caustics
 - If using "Caustics Raw" instead of "Caustics", these would have to also be multiplied by "Diffuse Filter".
