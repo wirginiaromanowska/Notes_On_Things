@@ -9,4 +9,7 @@
 - promotion method max or min
 - change original name to curve_max for example
 - don't have to delete original
+## 5. Trail sop
+- compute velocity
+  - Velocity Approximation - Central difference - so you get some vel on first and last frame
 
