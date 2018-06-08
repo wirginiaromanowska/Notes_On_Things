@@ -33,6 +33,11 @@
 ```
 `opimputpath("../",0)`
 ```
+### c) After DOP
+- Not always need DOP import sop, DOP has Object Merge built in:
+  - Object = smokeobject1
+  - Data - anything, most often density
+  - can bring more fields (+ sign), temperature, vel
 ## 3. Rules and Advice
 - avoid transforms at the object level (for emitters, colliders etc) in case you need to scale whole sim from cm to m later
 - when there is error in DOPs
