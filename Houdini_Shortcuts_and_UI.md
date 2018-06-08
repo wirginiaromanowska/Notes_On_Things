@@ -13,6 +13,7 @@
   - change number of imputs
   - match number of imputs to 4 so it resolves to the same as the dop network automatically
  - show in asset manager when right click on hda subnet
+ - Digital asset creation - details from webinar by Jeff Wagner here [https://vimeo.com/272793390]
  ## 2. Units
  - meters
  - to scale the asset inside geo object
