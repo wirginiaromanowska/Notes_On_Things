@@ -13,3 +13,7 @@
   - change number of imputs
   - match number of imputs to 4 so it resolves to the same as the dop network automatically
  - show in asset manager when right click on hda subnet
+ ## 2. Units
+ - meters
+ - to scale the asset to m use transform
+ - to scale it back to original (restore) duplicate the same transform and chech "reverse transform" checkbox and append at the end
