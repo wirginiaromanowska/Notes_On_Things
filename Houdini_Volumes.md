@@ -1,5 +1,7 @@
 ## 1. Types of volumes
-- vdb (sparese)
+- vdb
+  - sdf (signed distance field) - good for collisions etc
+  - fog - cheaper
 - houdini volume (dense
 - heighfield is dense volume
 ## 2. VDB
