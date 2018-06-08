@@ -15,5 +15,8 @@
  - show in asset manager when right click on hda subnet
  ## 2. Units
  - meters
- - to scale the asset to m use transform
- - to scale it back to original (restore) duplicate the same transform and chech "reverse transform" checkbox and append at the end
+ - to scale the asset inside geo object
+    - to m use transform
+    - to scale it back to original (restore) duplicate the same transform and chech "reverse transform" checkbox and append at the end
+ - on object level )oreffered in production)
+    - add null on top of object and scale there
