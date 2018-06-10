@@ -13,7 +13,7 @@
 - shadows
 - ao
 ## 4. To comp beauty pass
-- add above planes using PLUS node, then mult shadows and ao on top
+- add above planes using PLUS node, then mult shadows and ao on top?
 ## 4. DOF 
 - in redshift zdepth values are saved in meters (so everything that's fruther away than 1 meter will show up white)
 - [https://vimeo.com/87174825]
@@ -30,6 +30,13 @@
   - depth of field - how wide is the focus plane (bigger numbers = more stuff will be sharp, smaller numbers = DOF will be very narrow)
   - size - how blurry
   - maximum - max blurr at fruther away distance (background)
+ ## 5. Motion blurr
+ - in Redshift rener raw motion vectors
+ - in Nuke use VectorNlur node
+  - change UV channels to V (or whatever the name of the motion vector image plane is)
+  - adjust motion amount
+ - applied after depth works fine
+ 
  
 
 
