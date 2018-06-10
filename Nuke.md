@@ -1,4 +1,7 @@
-## 1. Non-commercial - size limit to 1920 x 1080
+## 1. Non-commercial 
+- size limit to 1920 x 1080
+- no empeg or any good codec
+- can render exr sequence
 ## 2. Nodes
 - Layer Contact Sheet - to see all image planes at once
 - shuffle to separate image planes
@@ -36,6 +39,9 @@
   - change UV channels to V (or whatever the name of the motion vector image plane is)
   - adjust motion amount
  - applied after depth works fine
+ ## 6. Rendering out sequence of exr images
+ - use Write node
+ - file sequences need to have name like Jenga%03d.exr to be able to write more than one image
  
  
 
