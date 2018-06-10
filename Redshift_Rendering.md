@@ -9,7 +9,42 @@
 - If using "Caustics Raw" instead of "Caustics", these would have to also be multiplied by "Diffuse Filter".
 - (Redshift Doc)[https://docs.redshift3d.com/display/RSDOCS/AOV+Tutorial?product=houdini]
 ## 4. Toon
-- use AO and Curvature in order to achieve a ink/sketch style render
+### a) For interior edges on SIMPLE geometry 
+- good for box with no subdivisions
+- in SOPs append polypath after the box
+- then poliwire SOP with desired width
+- apply black non reflective edge material
+### b) For interior eges on SUBDIVIDED geometry
+- use Group sop to group the (type) Edges, keep by Normals on and adjust spread angle (for box 0)
+- Include by Edges enabled, with min edge angle 45 
+- then group promote SOP, promote from edges to points
+- delete (by non selected) the new point group with Delete SOP
+- another Delete SOP to keep points only
+- connect adjacent pieces SOP in adjacent points mode, adjust search radius
+- polywire SOP
+- apply black non reflective edge material
+### b) For exterior edges
+- in RS material
+- Frenel
+- ramp set to alt black and white close together
+- this needs to be part of emissive and diffuse color
+- this needs to go directly in refl color (so no reflections where black edge is)   
+### c) For "shadows"
+- in RS material
+- Ambient Occlusion
+- Part of Diffusse and Emission
+### d) For toon light
+- In obj level create RS light (point)
+- in SOP's
+- need Normals on this geo so add Normal sop
+- redshift doesn't like attribute named N so rename the N to new_N using rename SOP
+- in RS Material
+- RS Vertex Attribute - new_N and normalize it
+- RS User Data Vector - copy relative ref from RS light pos to Default, normalize the vector
+- RS Math Dot Vector the two above
+- RS Ramp in alt mode - make the interpomation linear and pick three colors
+- Mult this vector with AO vector and Frenel from above
+- plug in Diffusse and Emissive
 ## 5. Rendering MotionBlur
 - Make sure you have v (velocity) attribute on the sop you are rendering, if not add trail sop and set it to calculate velocity.
 - Add redshift parms to your geo (obje parms from redshift shelf). Check checkboxes RedshiftOBJ/Render
