@@ -56,4 +56,18 @@
 ## 5. Pyro solver parameters
 - boyancy lift - takes direction * amount of boyancy * current temperature and adds that to current vel
 - gas released = expansion - often animated for explosion (high to lower to zero)
+## 6. S. K. Way of setting up pyro sim
+- can drag and drop out source volume from the SOP's to the smoke object initial Data Density Sop path
+- don't use the shape tab in the pyro solver, add your own micro-solvers
+- microsolver go to third input of the pyrosolver (velocity update), especially turbulence
+- use merge to have multiple microsolvers applied together
+- keyframe turbulence off
+- dop import field
+  - smokeobject1
+  - firlds to import add and field is nedsity
+  
+
+
+
+
 
