@@ -26,3 +26,11 @@
  - HIP variable that say where is scene file directory
  - HIPFILE - full path
  - JOB - lowest level of the particular project
+ ## 4. Takes
+ - Good explanation in Steve Knipping tutorial - Applied Houdini - Dynamics I under "Using the Take System"
+ - take list pane
+    - add HQ and LQ (they inherit from Main)
+    - you can change anything in Main take
+    - Add overrides by right click/include in take on given slider
+ - There is indication which take you're looking at in the top right corner of whole Houdini
+ - Matra can render Current take or force it to render one of the takes (from dropdown in matra properties)
