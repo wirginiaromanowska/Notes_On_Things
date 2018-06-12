@@ -13,6 +13,15 @@
 - blast can delete volume by group e.g. density
 - use name sop to rename volume fields (groups)
 - can use merge to merge back different fields/groups into one volume
+## 3. Creating
+- Iso offset - from polys
+## 4. Visualizing
+- Volume visualisation SOP
+  - doesn't change anything, just changes how this looks in viewport
+  - Density scale 10
+## 5. Operations
+- Volume mix
+  - when changing "post multiply" you actually change the data stored int he voxels
   
   
   
