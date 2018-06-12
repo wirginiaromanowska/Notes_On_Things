@@ -64,7 +64,11 @@
 - keyframe turbulence off
 - dop import field
   - smokeobject1
-  - firlds to import add and field is nedsity
+  - fields to import add and field is nedsity
+- make geometry in out context - I prefer to use file cache SOP
+  - drag out from dopimport to the SOP path of the geometry node
+  - save in $JOB/cache
+
   
 
 
