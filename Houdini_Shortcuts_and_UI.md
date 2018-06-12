@@ -21,3 +21,8 @@
     - to scale it back to original (restore) duplicate the same transform and chech "reverse transform" checkbox and append at the end
  - on object level )oreffered in production)
     - add null on top of object and scale there
+ ## 3. Projects
+ - under Edit/Aliases and Variables/ Variables pane
+ - HIP variable that say where is scene file directory
+ - HIPFILE - full path
+ - JOB - lowest level of the particular project
