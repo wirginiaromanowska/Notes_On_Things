@@ -251,6 +251,8 @@ if(rnum < 0.5){
 removepoint(0, @ptnum);
 }
 ```
-## 20 Do while vs while
+## 20. Do while vs while
 - do while executes at least once unconditionally because condition is at the end
 - while loops check condition first (like for loops), so they are not executed if the condition is not meet
+## 21. $OS
+- in object name (e.g. smoke object) will name the data in smoke object the same as the name on the smoke object node
