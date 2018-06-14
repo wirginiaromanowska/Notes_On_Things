@@ -72,7 +72,8 @@
 - connect this to mantra (mantra below) to runt hem together
   - will sim, save to disc and then render the image
 - mantra node - click on the purple flag
-  - change order to "node by done"
+  - change order to "node by done" - means first cache all sim first and the render frame range.
+  - frame by frame means - sim frame, then render frame
   
   
 
