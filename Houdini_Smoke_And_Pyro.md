@@ -109,7 +109,13 @@
   - if you do not clamp to maximum = allow simulation to grow indefinetly
   - initialisation static will grow bounds to the maximum bounds specified by size in main properties of smoke object
   - the value in field cutoff tells it to grow or shrink bounds
+  - initialization dynamic - for moving objects like a comet
 - tracking object - the bounds are at least as big as the tracking object
+  - S. k. is using bound SOP with some padding on the geo (not on fluid source)
+## 12. Reseting blue cache simulation
+- DOP changes
+- not always by referenced in DOP sOP changes
+- use button reseet sim on top of DOP network node properties
 
   
   
