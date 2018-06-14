@@ -103,6 +103,13 @@
   - masking vel by density (when things are going to fast/crazy)
   - keyframe scale velocity over time
 - drag 0.04
+## 11. Resize Fluid Dynamic
+- second imput/presolve of the pyro solver
+-  max bounds
+  - if you do not clamp to maximum = allow simulation to grow indefinetly
+  - initialisation static will grow bounds to the maximum bounds specified by size in main properties of smoke object
+  - the value in field cutoff tells it to grow or shrink bounds
+- tracking object - the bounds are at least as big as the tracking object
 
   
   
