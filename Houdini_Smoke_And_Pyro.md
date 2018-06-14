@@ -74,6 +74,11 @@
 - mantra node - click on the purple flag
   - change order to "node by done" - means first cache all sim first and the render frame range.
   - frame by frame means - sim frame, then render frame
+  ## 8. S. K. building source
+  - use mountain on sphere and animate it with T
+  - contract and shrink size of the source 
+    - by noise($T, 0, 0) in uniform scale
+    - this noise range is from -0.5 to 0.5 so need to be offset noise($T, 0, 0)+1.0
   
   
 
