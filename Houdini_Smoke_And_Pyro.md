@@ -65,9 +65,16 @@
 - dop import field
   - smokeobject1
   - fields to import add and field is nedsity
-- make geometry in out context - I prefer to use file cache SOP
+## 7. S. K. Sim and Render in the same queue
+- make geometry in out context - this is instead of the file cache
   - drag out from dopimport to the SOP path of the geometry node
   - save in $JOB/cache
+- connect this to mantra (mantra below) to runt hem together
+  - will sim, save to disc and then render the image
+- mantra node - click on the purple flag
+  - change order to "node by done"
+  
+  
 
   
 
