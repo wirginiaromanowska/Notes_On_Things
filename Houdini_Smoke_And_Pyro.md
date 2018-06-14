@@ -79,6 +79,34 @@
   - contract and shrink size of the source 
     - by noise($T, 0, 0) in uniform scale
     - this noise range is from -0.5 to 0.5 so need to be offset noise($T, 0, 0)+1.0
+  - trail SOP and compute velocity
+  - fluid source SOP
+## 9. S. K. Fluid source SOP
+- Houdini volume (stores scalar per vol)
+- hollow vs/ filled with density - SDF from Geometry tab
+  - Minimum distance (off to make solid vol)
+  - Empty interior (off to make solid vol)
+- Noise pane
+  - noise is animated by default
+  - tub noise 0 - 1 values
+- Vlocity pane
+  - stamp points - looks how far away to look for points with vel (from the surface) to apply that vel to the density volume (filling the interior). If density volume voxel doesn;t sample far enough to find vel from point it gets 0 velocity.
+  - curl noise
+## 10. S. K. pyro DOP
+- pyrosolver
+- smoke object - scale up the box to max bounds
+- source volume 
+  - to sourcing/post solve/last input of pyro solver
+  - point to fluid source in SOPs
+  - checks every frame by default
+  - Volume operations - ADD VELOCITY
+  - masking vel by density (when things are going to fast/crazy)
+  - keyframe scale velocity over time
+- drag 0.04
+
+  
+  
+  
   
   
 
