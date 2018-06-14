@@ -116,6 +116,20 @@
 - DOP changes
 - not always by referenced in DOP sOP changes
 - use button reseet sim on top of DOP network node properties
+## 13. Gas Disturbance microsolver
+- to the third input in pyro solver
+- visualize block size by creating box in geo of the same size
+- S. K. modified version
+  - in bindings disturb field should disturb vel instead of temperature
+  - disturb field is vector field should be on
+  - threshold field is density be default, threshold refers to cutoff under disturb settings pane
+  - cutoff says - apply disturbance only if there is less than 0.1 density
+  - merging 2 - 3 different sizes disturbance 1/3 size difference
+  - control settings set to density, range 0 - 0.1 (or whatever the cutoff value was)
+  - control settings left side of the curve applies disturbance to lowest density - 0 and right side to whatever the max range vaue is
+  - make it like \ to apply more disturbance where lower density is to break the mushroom leading edges
+  
+
 
   
   
