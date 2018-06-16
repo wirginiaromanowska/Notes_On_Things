@@ -146,8 +146,8 @@
   
 - time scale = power
 ## 14. Gass dissipate microsolver
-- difuxxion = blurr 0.05
-- evaporation rate = disspation 0.05
+- difusion = blurr 0.05
+- evaporation rate = disspation 0.1
 ## 15. Expansion = Divergence without combustion
 - With combustion: fuel + temperature = expansion + fire + smopke + more temperature
 - in SOPS 
@@ -168,6 +168,20 @@
 - density
 - vel to get motion blur
 - one of the presets might have the right settings
+## 18. Adding temperaure without combustion
+- if you want more boyancy
+- SOP to DOP bindings density to temperature
+## 19. Rest
+- Enable in pyro solver in rest field pane
+  - Dueal rest fields on
+  - Frames between solve 10
+  - Frame offset 1
+  - Rest advection rate 1
+- In smoke object
+  - in initial data tab turn on Add Rest Field
+- In dopimportfields
+  - add rest and rest2 fields to import
+
 
   
   
