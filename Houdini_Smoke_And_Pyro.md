@@ -181,6 +181,13 @@
   - in initial data tab turn on Add Rest Field
 - In dopimportfields
   - add rest and rest2 fields to import
+## 20. Rendering in mantra
+- watch the S. K. tutorial Applied Houdini Dynamics III
+## 21. Rendering General
+- On the geometry level in shading pane there is Volume Filter setting
+  - try gaussian instead of box
+  - with 1.5
+
 
 
   
