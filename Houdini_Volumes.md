@@ -22,6 +22,11 @@
 ## 5. Operations
 - Volume mix
   - when changing "post multiply" you actually change the data stored int he voxels
+## 6. Cloud and cloud noise SOPs
+- vdb volume
+- byaanimating time in advection pane in cloud noise sop you can make animated puff without simulation
+- build low res then kick the res to 300
+
   
   
   
