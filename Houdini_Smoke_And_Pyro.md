@@ -128,6 +128,30 @@
   - control settings set to density, range 0 - 0.1 (or whatever the cutoff value was)
   - control settings left side of the curve applies disturbance to lowest density - 0 and right side to whatever the max range vaue is
   - make it like \ to apply more disturbance where lower density is to break the mushroom leading edges
+- time scale = power
+## 14. Gass dissipate microsolver
+- difuxxion = blurr 0.05
+- evaporation rate = disspation 0.05
+## 15. Expansion = Divergence without combustion
+- With combustion: fuel + temperature = expansion + fire + smopke + more temperature
+- in SOPS 
+  - delete (by group) everything but density field
+  - adds volume vop after fluid source created for density
+- in volume vop create aanoise in simplex mode and multiply its density with original density to create pockets of expansion
+- in DOPs 
+  - source volume
+  - merge with density
+  - go to last input of pyro solver
+  - preset expand
+  - SOP to DOP bindings should be density to divergence
+  - keyframe scale source volume only for short time at the start of time
+  - can multiply by 100 or 200 if not visible
+  
+  
+
+
+
+
   
 
 
