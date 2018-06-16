@@ -256,3 +256,5 @@ removepoint(0, @ptnum);
 - while loops check condition first (like for loops), so they are not executed if the condition is not meet
 ## 21. $OS
 - in object name (e.g. smoke object) will name the data in smoke object the same as the name on the smoke object node
+## 22. VEX Snippets
+- noise($T, 0, 0) to drive uniform scale or pos. Can use scope to see the curve
