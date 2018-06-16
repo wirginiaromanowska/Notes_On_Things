@@ -103,6 +103,10 @@
   - masking vel by density (when things are going to fast/crazy)
   - keyframe scale velocity over time
 - drag 0.04
+- substeps on DOP for increased swirliness and nuance in motion 
+  - use more substeps when you can afford
+  - add to your take system for HQ settings
+- for final sim 600 voxels along if it's box (along max axis)
 ## 11. Resize Fluid Dynamic
 - second imput/presolve of the pyro solver
 -  max bounds
@@ -122,12 +126,24 @@
 - S. K. modified version
   - in bindings disturb field should disturb vel instead of temperature
   - disturb field is vector field should be on
-  - threshold field is density be default, threshold refers to cutoff under disturb settings pane
+  - threshold field is density by default, threshold refers to cutoff under disturb settings pane
   - cutoff says - apply disturbance only if there is less than 0.1 density
   - merging 2 - 3 different sizes disturbance 1/3 size difference
-  - control settings set to density, range 0 - 0.1 (or whatever the cutoff value was)
+  - control settings by default set to density, range 0 - 0.1 (or whatever the cutoff value was)
   - control settings left side of the curve applies disturbance to lowest density - 0 and right side to whatever the max range vaue is
   - make it like \ to apply more disturbance where lower density is to break the mushroom leading edges
+- S. K. modified version 2
+  - S. K. later changes the control field to be vel so the parts that are moving very fast are more disturbed than areas that move slower
+  - control influence set to 1
+  - no keframing animation needed
+  - control range 0 to 1 and remap ramp like / means speed 0 to 1 (might need a different range?)
+  - allow editing of contents
+  - go inside and in disturb vector field
+  - we want to disturb vel based on vel
+  - find control field (lower part of the vop net)
+  - change the control field type to vector
+  - add lenght after it to calculate speed
+  
 - time scale = power
 ## 14. Gass dissipate microsolver
 - difuxxion = blurr 0.05
@@ -146,6 +162,13 @@
   - SOP to DOP bindings should be density to divergence
   - keyframe scale source volume only for short time at the start of time
   - can multiply by 100 or 200 if not visible
+## 16. Vortex confinement
+- for whicpy smoke like cigarette smoke
+## 17. DOP import field
+- density
+- vel to get motion blur
+- one of the presets might have the right settings
+
   
   
 
