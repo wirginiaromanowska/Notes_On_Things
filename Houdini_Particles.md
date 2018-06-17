@@ -13,7 +13,7 @@
 ### b) popsolver - moves particles around
 ### c) POP source
 - can source only from selected group of polys
-- spawn by attribute
+- emission attribute - for example spawn by Cd (will spawn only ehre whiter is)
 - Impulse Activation 1, then Impulse count means spawn n particles every simulation frame (default every frame)
 - Constant Activation 1, then Const Birth Rate means spawn n particles every second
 - Life expectancy is particle life in seconds
