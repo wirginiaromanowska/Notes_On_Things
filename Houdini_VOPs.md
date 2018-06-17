@@ -1,0 +1,1 @@
+- there are cool patterns, not just noises. Search for pattern
