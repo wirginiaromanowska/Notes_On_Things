@@ -39,6 +39,8 @@
 ## 6. POP Wrangle
 - plugs below particle cource
 - @dead = 1; - kills all particles
+## 7. Particles rendering
+- motion blur with shutter offset of negative 1 (-1)
 
 
 
