@@ -51,5 +51,6 @@
   - all three to do with motion blurr on
   - deformations blur from velocity atribute
  - In Redshift ROP under Redshift/Motion Blur switch all three checkboxes to do with motion blur
-
+## 6. Camera
+- Use null to spin camera around subject
 
