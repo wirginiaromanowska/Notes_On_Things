@@ -34,3 +34,8 @@
     - Add overrides by right click/include in take on given slider
  - There is indication which take you're looking at in the top right corner of whole Houdini
  - Matra can render Current take or force it to render one of the takes (from dropdown in matra properties)
+ ## 5. Selecting connected primitives in scene view (by attribute)
+ - to select pieces of voronoi fracture
+ - in select mode in  select menu on top of scene view push on the square button select groups or connected geometry
+ - menu will show up on the right
+ - go to gear/settings and choose Attributes/name
