@@ -258,3 +258,4 @@ removepoint(0, @ptnum);
 - in object name (e.g. smoke object) will name the data in smoke object the same as the name on the smoke object node
 ## 22. VEX Snippets
 - noise($T, 0, 0) to drive uniform scale or pos. Can use scope to see the curve
+- 1e+06 = one milion, 4e+06 = four milions
