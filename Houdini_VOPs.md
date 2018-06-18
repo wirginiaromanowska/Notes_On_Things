@@ -18,5 +18,6 @@
 - use if you want to change distribution (in size for example). Many small particles and only few big ones
 ## 9. Add const
 ## 10. Alpha
+- bind export Alpha per point will render alpha (transparency)
 
 
