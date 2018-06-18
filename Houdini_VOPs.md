@@ -9,3 +9,5 @@
 - create new attributes
 ## 4. Bind Export
 - export attributes
+## 5. Compliment
+- makes 1-the thing (for example normalized age to feed to pscale if you want particles to get smaller with age)
