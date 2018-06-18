@@ -20,10 +20,13 @@
 - Life Variance + or - in seconds
 - Inherit attributes from geo from where particles are spawning, like velocity or color
 - in Attributes panes can set velocity - that's initial velocity
-## 3. Popforce
+## 3. Forces
+### a) Popforce
 - can display vecttors in vieport when guide is on
 - two popforces - vectors will add
 - has noise built in
+### b) Drag 
+- goes right under source too
 ## 4. Pop location
 - birth
 - velocity
