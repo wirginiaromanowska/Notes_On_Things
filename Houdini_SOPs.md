@@ -15,4 +15,7 @@
 ## 6. Bound SOP
 - creates bounding box (geo) around incoming geo
 - can add more padding on all axis and directions
+## 7. Convertline
+- converts mesh to wireframe primitives
+- uses width attrib
 
