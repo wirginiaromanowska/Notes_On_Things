@@ -7,6 +7,8 @@
   - age - how long it is currently alive, not normalized, still in seconds
   - id (unique)
   - dead - can be set in POP wrangler
+- divide age/life to get 0-1 value
+  - sometimes because precision it might go over 1, use clamp VOP
 ## 2. POP network
 ### a) popobject - particle bucket
 - some physical properties
