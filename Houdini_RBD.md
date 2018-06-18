@@ -9,3 +9,12 @@
 - bounce - how much energy conservation there is when two objects collide, this is multiplication between the two objects (e.g. sphere and the ground)
 - friction - how difficult is to move object from rest. 0 - no resistance at all
 - dynamic friction - multiplier for objects that are already moving
+## 4. S. K. simplest version
+- uses shelf tool to create rbd glued object (packed) from voronoi fracture
+- uses shelf to create ground plane
+- adds initial vel (-30) on rigids source object in DOP net
+- DOP import modifications (created by shelf)
+  - change import style to fetch unpacked geo from DOP (get smaterials and attribs)
+  - Point velocities set to Instantenous Point Velocities
+- filecache
+
