@@ -24,7 +24,8 @@
 ### a) Popforce
 - can display vecttors in vieport when guide is on
 - two popforces - vectors will add
-- has noise built in
+- has noise built in, layer two forces with different swirl size
+- use as gravity
 ### b) Drag 
 - goes right under source too
 ## 4. Pop location
