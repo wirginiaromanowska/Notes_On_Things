@@ -5,3 +5,7 @@
 - 4D input
   - before connecting noise you can choose it to have 4D inmput - this is when you wand position and time as input (for aaflow noise for example)
   - use vector to vector 4 to combine pos and time into one vector
+## 3. Parameter VOP
+- create new attributes
+## 4. Bind Export
+- export attributes
