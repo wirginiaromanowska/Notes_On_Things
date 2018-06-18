@@ -18,4 +18,6 @@
 ## 7. Convertline
 - converts mesh to wireframe primitives
 - uses width attrib
+## 8. Point Jitter
+- use on fused geo after convert line to make the wireframe look electric
 
