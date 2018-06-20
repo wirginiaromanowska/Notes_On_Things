@@ -19,5 +19,9 @@
 ## 9. Add const
 ## 10. Alpha
 - bind export Alpha per point will render alpha (transparency)
+## 11. Turbulent noise (1d) To have more variation in vel
+- multiply with existing vel
+- amplitude higher (8)
+- frequency higher (more detail)
 
 
