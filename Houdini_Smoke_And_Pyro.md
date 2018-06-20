@@ -187,8 +187,23 @@
 - On the geometry level in shading pane there is Volume Filter setting
   - try gaussian instead of box
   - with 1.5
-
-
+## 22. S. K. creates density attrib depending on age on particles
+```
+f@density = 1.0 - @age / ch("../debrisource1/lifespan");
+```
+- referencing channel on debris source up the strim of the same geo - ch("../debrisource1/lifespan"
+- instead could make lifespan per point attribute -  @ (especially if there is variance) and use that to gen normalized age
+- 1.0 - stuff is to invert the range 0-1 to 1-0
+## 23 S. K creates pscale attribute after any particle simulation happens (to avoid strange collisions with gorund etc)
+```
+f@pscale = @density;
+```
+## 24. S.K. Color from density
+- on points from debris source
+```
+v@Cd = set(@density, 0, 1.0 - @density);
+```
+- starts red and becomes blue by the end
 
   
   
