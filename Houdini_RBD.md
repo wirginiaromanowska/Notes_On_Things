@@ -17,4 +17,9 @@
   - change import style to fetch unpacked geo from DOP (get smaterials and attribs)
   - Point velocities set to Instantenous Point Velocities
 - filecache
+## 5. Debis source
+- this is simulations - results of next frame depend on previous frame
+- it does not rely on any rbd data - it's post process thing
+- points automatically inherit velocity from source rbd
+- can source volume (stamp points mode)
 
