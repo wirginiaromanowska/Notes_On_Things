@@ -2,6 +2,10 @@
 ### a) vdb
 - sdf (signed distance field) - good for collisions etc
 - fog - cheaper
+- vdb from polygons can source v from points to vel volume (Vector type needs to be Velocity)
+- can store vector fields
+- almost always more memory eficient
+- empty voxels inside and outside are not stored
 ### b) houdini volume (dense), e.g. iso offset
 - fog
 - sdf (Signed Distance Field)
