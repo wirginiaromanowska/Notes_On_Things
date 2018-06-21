@@ -1,6 +1,10 @@
 ## 1. Types of volumes
 ### a) vdb
 - sdf (signed distance field) - good for collisions etc
+  - 0 on the surface
+  - negative outside
+  - positive inside
+  - it's opposite of native Houdini volumes
 - fog - cheaper
 - vdb from polygons can source v from points to vel volume (Vector type needs to be Velocity)
 - can store vector fields
