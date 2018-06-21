@@ -20,4 +20,5 @@
 - uses width attrib
 ## 8. Point Jitter
 - use on fused geo after convert line to make the wireframe look electric
-
+## 9. Merge SOP
+- Cn bring multiple objests at once - use plus button to add more
