@@ -101,7 +101,19 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - starts red and becomes blue by the end
 ### c) collision source
 - make sdf volume ahead of time and cache
-- 
+- could use fluid source (it's iso offset)
+  - container settings, change to collision preset
+  - makes sdf
+  - records velocity
+  - calls this vol field collision automatically
+  - they're slow
+  - buggy
+- use vdb volumes
+  - vdb from polygons
+  - much faster
+  - source attribute - point v to vel field, vector type needs to be Velocity
+  
+  
 ## 9. S. K. Fluid source SOP
 - Houdini volume (stores scalar per vol)
 - hollow vs/ filled with density - SDF from Geometry tab
