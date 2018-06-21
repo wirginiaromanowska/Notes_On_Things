@@ -133,10 +133,13 @@ v@Cd = set(@density, 0, 1.0 - @density);
   - to sourcing/post solve/last input of pyro solver
   - point to fluid source in SOPs
   - checks every frame by default
-  - Volume operations - ADD VELOCITY
+  - Volume operations - ADD VELOCITY, and bring amount down (0.1)
   - masking vel by density (when things are going to fast/crazy)
   - keyframe scale velocity over time
+  - source velocity and density in the same source, collision separate source (sdf)
 - drag 0.04
+- for smoke gravity at -9.8
+- ground plane or collide with bottom of the fluid container
 - substeps on DOP for increased swirliness and nuance in motion 
   - use more substeps when you can afford
   - add to your take system for HQ settings
@@ -221,6 +224,14 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - On the geometry level in shading pane there is Volume Filter setting
   - try gaussian instead of box
   - with 1.5
+## 22. Collision sourcing
+- source volume to collision preset
+- if sourcing the col from vdb HAVE TO CHANGE SCALE SOURCE VOLUME TO NEGATIVE 1
+- if sourcing from vdb names of volumes are differend, so bindings need to change
+  - surface to collision
+  - v to collisionvel
+  - or change names when creating that vdb in SOPs
+
 
 
 
