@@ -9,7 +9,7 @@
 - control - vel, influence -1, control range from 1 to 0
 - bindings: disturb firld is vector field on, disturb field - vel, threshold field density
 - allow editing, in disturb vector field: control field node needs to be type vector, after append lenght node
-## 2. Gas particle to field
+## 2. Gas particle to field (Wagner)
 ### a)In SOPs
 - create attribute on points/particles etc.
 - name it divergence or temperature etc.
@@ -75,12 +75,33 @@
   - change order to "node by done" - means first cache all sim first and the render frame range.
   - frame by frame means - sim frame, then render frame
 ## 8. S. K. building source
+### a) simple
   - use mountain on sphere and animate it with T
   - contract and shrink size of the source 
     - by noise($T, 0, 0) in uniform scale
     - this noise range is from -0.5 to 0.5 so need to be offset noise($T, 0, 0)+1.0
   - trail SOP and compute velocity
   - fluid source SOP
+### b) with debris source
+- creates density attrib depending on age on particles
+```
+f@density = 1.0 - @age / ch("../debrisource1/lifespan");
+```
+- referencing channel on debris source up the stream of the same geo - ch("../debrisource1/lifespan"
+- instead could make lifespan per point attribute -  @ (especially if there is variance) and use that to gen normalized age
+- 1.0 - stuff is to invert the range 0-1 to 1-0
+- creates pscale attribute after any particle simulation happens (to avoid strange collisions with gorund etc)
+```
+f@pscale = @density;
+```
+- Color from density - on points from debris source
+```
+v@Cd = set(@density, 0, 1.0 - @density);
+```
+- starts red and becomes blue by the end
+### c) collision source
+- make sdf volume ahead of time and cache
+- 
 ## 9. S. K. Fluid source SOP
 - Houdini volume (stores scalar per vol)
 - hollow vs/ filled with density - SDF from Geometry tab
@@ -89,6 +110,7 @@
 - Noise pane
   - noise is animated by default
   - tub noise 0 - 1 values
+  - turbulence means levels of detail
 - Vlocity pane
   - stamp points - looks how far away to look for points with vel (from the surface) to apply that vel to the density volume (filling the interior). If density volume voxel doesn;t sample far enough to find vel from point it gets 0 velocity.
   - curl noise
@@ -187,31 +209,8 @@
 - On the geometry level in shading pane there is Volume Filter setting
   - try gaussian instead of box
   - with 1.5
-## 22. S. K. creates density attrib depending on age on particles
-```
-f@density = 1.0 - @age / ch("../debrisource1/lifespan");
-```
-- referencing channel on debris source up the strim of the same geo - ch("../debrisource1/lifespan"
-- instead could make lifespan per point attribute -  @ (especially if there is variance) and use that to gen normalized age
-- 1.0 - stuff is to invert the range 0-1 to 1-0
-## 23 S. K creates pscale attribute after any particle simulation happens (to avoid strange collisions with gorund etc)
-```
-f@pscale = @density;
-```
-## 24. S.K. Color from density
-- on points from debris source
-```
-v@Cd = set(@density, 0, 1.0 - @density);
-```
-- starts red and becomes blue by the end
-
-  
-  
 
 
-
-
-  
 
 
   
