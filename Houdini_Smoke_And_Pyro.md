@@ -17,6 +17,8 @@
 
 ### b) In DOP
 - smoke object
+  - division method Max axis, start with 150, then 300, 600 for final render
+  - good size to start (for explosion) 10x12x10
 - to apply data
 - to pyro solver
 - sop geo node to second imput of apply data
@@ -164,6 +166,8 @@ v@Cd = set(@density, 0, 1.0 - @density);
   - initialization dynamic - for moving objects like a comet
 - tracking object - the bounds are at least as big as the tracking object
   - S. k. is using bound SOP with some padding on the geo (not on fluid source)
+- Padding to 1 for fast exploding/moving fluids
+- Delay frmaes to 1 when size shrinks and grows again fast
 ## 12. Reseting blue cache simulation
 - DOP changes
 - not always by referenced in DOP sOP changes
