@@ -253,6 +253,9 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - Time scale says how fast turbulence is moving through
 ## 24. Combustion model
 - fuel + heat = fire + smoke
+### a) in pyro solver
+- bouancy 5 is usually too high (2)
+- cooling rate - the lower - the slower tepm cools, so explosion will rise for longer with lower cooling rate (0.5)
   
 
 
