@@ -48,11 +48,20 @@
   - how you mix in vel matters
     - try to set it to maximum instead of add
 ## 4. Fast moving trails
+### a) Wagner way
 - trail SOP: preserve original, trail lenght 5 (frames)
 - add SOP: under poligons by group, by attribute, and attribute is id
 - resample with max segments set to what would be max substeps
 - point jitter - makes it more noise
 - wire this directly to DOPnet
+### b) S. K. Way
+- in attrib wrangle
+```
+@P = @P - @TimeInc * @v
+```
+- go back one time increment (one sim frame) along vel vector and put point there
+- merhe this with original points
+- add SOP, by group, by attribute, attribute is "id"
 ## 5. Pyro solver parameters
 - boyancy lift - takes direction * amount of boyancy * current temperature and adds that to current vel
 - gas released = expansion - often animated for explosion (high to lower to zero)
@@ -224,7 +233,7 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - On the geometry level in shading pane there is Volume Filter setting
   - try gaussian instead of box
   - with 1.5
-## 22. Collision sourcing
+## 22. In DOP - Collision sourcing
 - source volume to collision preset
 - if sourcing the col from vdb HAVE TO CHANGE SCALE SOURCE VOLUME TO NEGATIVE 1
 - if sourcing from vdb names of volumes are differend, so bindings need to change
@@ -233,6 +242,10 @@ v@Cd = set(@density, 0, 1.0 - @density);
   - or change names when creating that vdb in SOPs
  - collision settings in pyro solver under relationship/collisions
   - extrapolate into collisions - gives sense of stickyness
+  - Correct collisions - delete density inside collision volumes - turning off helps to keep more volume trail
+## 23. Turbulence microsolver
+- Time scale says how fast turbulence is moving through
+  
 
 
 
