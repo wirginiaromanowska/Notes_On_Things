@@ -247,6 +247,8 @@ v@Cd = set(@density, 0, 1.0 - @density);
   - Correct collisions - delete density inside collision volumes - turning off helps to keep more volume trail
 ## 23. Turbulence microsolver
 - Time scale says how fast turbulence is moving through
+## 24. Combustion model
+- fuel + heat = fire + smoke
   
 
 
