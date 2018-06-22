@@ -231,6 +231,8 @@ v@Cd = set(@density, 0, 1.0 - @density);
   - surface to collision
   - v to collisionvel
   - or change names when creating that vdb in SOPs
+ - collision settings in pyro solver under relationship/collisions
+  - extrapolate into collisions - gives sense of stickyness
 
 
 
