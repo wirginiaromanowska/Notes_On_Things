@@ -62,6 +62,8 @@
 - go back one time increment (one sim frame) along vel vector and put point there
 - merhe this with original points
 - add SOP, by group, by attribute, attribute is "id"
+- resample SOP to add more points in between
+- attr wrangle after original (front) points and multiply pscale by 0.001, to make the lines spear shaped - thinner at the leading point. Resample SOp will interpolate between the two pscales
 ## 5. Pyro solver parameters
 - boyancy lift - takes direction * amount of boyancy * current temperature and adds that to current vel
 - gas released = expansion - often animated for explosion (high to lower to zero)
