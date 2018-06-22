@@ -222,7 +222,7 @@ v@Cd = set(@density, 0, 1.0 - @density);
 ## 19. Rest
 - Enable in pyro solver in rest field pane
   - Dueal rest fields on
-  - Frames between solve 10
+  - Frames between solve 10 for very fast sims like explosion, 15 for slower puffs, and breaks.
   - Frame offset 1
   - Rest advection rate 1
 - In smoke object
