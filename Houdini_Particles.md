@@ -48,6 +48,9 @@
 - set to update Velocity
 ## 9. In vieport
 - press D and go to geo tab and display particles as pixels
+## 10. Rest (start) position for coloring etc
+- create justborn group in DOPS in source
+- append popwrangle to run over justborn group with v@rest = @P;
 
 
 
