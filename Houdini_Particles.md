@@ -46,6 +46,23 @@
 ## 8. Pop Advect By Volumes
 - use vel colume (see in volumes)
 - set to update Velocity
+- change color and pscale:
+```
+float speed = length(@v);
+speed = fit(speed, chf("min_speed"), chf("max_speed"), 0, 1);
+float norm_age = @age/ @life;
+float bias = fit(@bias, -0.5, 0.5, 0, 1);
+@Cd = set(speed, bias, norm_age);
+@pscale = chf("scale") * chramp("size_ramp",  norm_age);
+```
+- particles will stop moving and be stuck to the edge of puto container, to fix post sim:
+  - create box with the same dimentions as the pyro sim container
+  - vdb from polys - sdf
+  - attrib wrangle, with forst input from particles (post sim), second input from the vdb
+  ```
+  float bound_scale = fit(volumesample(1, 0, @P), chf("min_dist"), chf("max_dist"), 1, 0);
+  @pscale *= bound_scale;
+  ```
 ## 9. In vieport
 - press D and go to geo tab and display particles as pixels
 ## 10. Rest (start) position for coloring etc
