@@ -39,3 +39,6 @@
  - in select mode in  select menu on top of scene view push on the square button select groups or connected geometry
  - menu will show up on the right
  - go to gear/settings and choose Attributes/name
+ ## 6. Animation Editor (curves)
+ - shift + click on animated or expression channel
+ - space + G to center the curve in the view
