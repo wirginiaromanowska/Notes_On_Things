@@ -259,3 +259,4 @@ removepoint(0, @ptnum);
 ## 22. VEX Snippets
 - noise($T, 0, 0) to drive uniform scale or pos. Can use scope to see the curve
 - 1e+06 = one milion, 4e+06 = four milions
+- @name=vel.*will select/delete/blast fields/volumes with that name
