@@ -53,4 +53,7 @@
  - In Redshift ROP under Redshift/Motion Blur switch all three checkboxes to do with motion blur
 ## 6. Camera
 - Use null to spin camera around subject
+## 7. RenderView 
+- the pane next to scene pane
+- can take a snapshot of the previous render for comparison (camera button at the bottom)
 
