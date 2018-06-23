@@ -22,6 +22,8 @@
 - Life Variance + or - in seconds
 - Inherit attributes from geo from where particles are spawning, like velocity or color
 - in Attributes panes can set velocity - that's initial velocity
+- S. K. for bursts uses 0 - 1 aniamtion on const birth rate over 13 frames
+  - to ahve more than one point use Scale Point Count By area in Source tab, start with 0.001. The lower the number the more particles
 ## 3. Forces
 ### a) Popforce
 - can display vecttors in vieport when guide is on
@@ -44,6 +46,9 @@
 ## 8. Pop Advect By Volumes
 - use vel colume (see in volumes)
 - set to update Velocity
+## 9. In vieport
+- press D and go to geo tab and display particles as pixels
+
 
 
 
