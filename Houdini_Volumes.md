@@ -41,11 +41,17 @@
 - vdb volume
 - byaanimating time in advection pane in cloud noise sop you can make animated puff without simulation
 - build low res then kick the res to 300
-## 7. S. K. Create vel volume
+## 7. S. K. Vel volumes
+### a) nodes
 - Bound sop around your geo + some padding
 - volume Sop named vel, vector
 - volume vop with bind export vel 3 floats (vector)
-- aaflow noise
+- aaflow noise to create vectors (3d noise)
+### b) preview
+- volume slice from volume vop
+- volume trail with left input from volume slice and right input from volumevop with noise bvelocities
+  - switch off detect range - this ir remapping colors to range on every frame, so you will not know when things are speeding up.
+
 
   
   
