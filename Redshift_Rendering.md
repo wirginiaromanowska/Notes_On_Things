@@ -56,4 +56,13 @@
 ## 7. RenderView 
 - the pane next to scene pane
 - can take a snapshot of the previous render for comparison (camera button at the bottom)
+## 8. Redshift and Particles
+- by defaoult nothing renders
+- use instance geo node and sphere
+  - get inside and delete add, 
+  - object merge the particles
+  - in properties Instance Object is the sphere (or whatever shape are the particles)
+  - instance heo node needs to have redshift parms added (from shelf) and in Redshift Obj/Instancing change Instancing using to Redshift Point Clouds
+- material must be assigned to the instanced object (i.e. sphere), not to intancing geo node
+
 
