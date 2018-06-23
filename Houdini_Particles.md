@@ -41,6 +41,9 @@
 - @dead = 1; - kills all particles
 ## 7. Particles rendering
 - motion blur with shutter offset of negative 1 (-1)
+## 8. Pop Advect By Volumes
+- use vel colume (see in volumes)
+- set to update Velocity
 
 
 
