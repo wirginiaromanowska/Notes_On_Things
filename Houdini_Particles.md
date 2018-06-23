@@ -44,7 +44,7 @@
 - @dead = 1; - kills all particles
 ## 7. Particles rendering
 - motion blur with shutter offset of negative 1 (-1)
-## 8. Pop Advect By Volumes
+## 8. Pop Advect By Volumes by S. K.
 - use vel colume (see in volumes)
 - set to update Velocity
 - change color and pscale:
@@ -69,6 +69,22 @@ float bias = fit(@bias, -0.5, 0.5, 0, 1);
 ## 10. Rest (start) position for coloring etc
 - create justborn group in DOPS in source
 - append popwrangle to run over justborn group with v@rest = @P;
+## 11. Grouping by age
+- in popnet create PopGroup POP
+- by rule
+```
+ingroup = @nage > 0.6;
+```
+## 12. SLow down particles in certain grouop
+- in POP network create PopWrangle
+```
+@v = @v*0.8;
+```
+- 20% drop in vel for each frame
+## 13. Color based on speed
+- in POP network create POPColor
+- ramp = lenght(@v);
+
 
 
 
