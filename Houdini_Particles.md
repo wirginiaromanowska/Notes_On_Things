@@ -5,6 +5,7 @@
   - force - vector
   - life - set in the source by life expetancy
   - age - how long it is currently alive, not normalized, still in seconds
+  - @nage - normalized age - dont have to calculate = @age/@life;
   - id (unique)
   - dead - can be set in POP wrangler
 - divide age/life to get 0-1 value
