@@ -22,3 +22,6 @@
 - use on fused geo after convert line to make the wireframe look electric
 ## 9. Merge SOP
 - Cn bring multiple objests at once - use plus button to add more
+## 10. Facet
+- when edges on boxes look like normals are smoothed
+- have to switch "Unique Points"
