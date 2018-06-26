@@ -251,12 +251,34 @@ v@Cd = set(@density, 0, 1.0 - @density);
   - Correct collisions - delete density inside collision volumes - turning off helps to keep more volume trail
 ## 23. Turbulence microsolver
 - Time scale says how fast turbulence is moving through
-## 24. Combustion model
+## 24. Combustion model S. K.
 - fuel + heat = fire + smoke
+- fuel + temperature = burn (=ignite) + added temperature + heat (=flames) + density (=smoke) + divergence (=expansion) + velocity
 ### a) in pyro solver
 - bouancy 5 is usually too high (2)
 - cooling rate - the lower - the slower tepm cools, so explosion will rise for longer with lower cooling rate (0.5)
-  
+- emission intensity = heat = flames
+- emission color = temperature
+- divergence (expansion) of explosion is controlled by gas release amount. Want puffier explosion - set higher gas release - 25
+- keep cooling rate ower to have explosion last longer
+- fuel ineficiency higher for longer lasting flames good for jet of fire, not for explosion, this is what adds long streaks of fire from ground to explosion mushroom up in the air, makes the fire rise faster/longer
+### c) in pyro/flames
+- flames = heat
+- flame height controls how fast the heat field is diddipated/ evaporated
+- it's another control to set the height of the flames, not directly dependend on the heat and temperature fields
+### d) in pyro/smoke
+- emit smoke based on het (= where flame is), where the heat is lower than the heat cutoff (only on edges of the flame)
+- the higher the cutoff the thicker the emission edge
+- blend amount - is added on top of the cutoff to blend in
+- create dende smoke - don;t only add smoke where there is no smoke, add on top of it too, accumulate
+### e) in pyro/gas
+- flame contribution - good for rolling pyroclastic smoke
+### b) source
+- fueal from density and temperature from density
+- keyframe sourcing for both, temp stays for longer
+  - fuel starts at 1 goes to 2 and then to 0 over few frames
+  - temperaure starts at 1 and then slowly eases in to 0 over 60 frame
+
 
 
 
