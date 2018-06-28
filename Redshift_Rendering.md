@@ -64,5 +64,8 @@
   - in properties Instance Object is the sphere (or whatever shape are the particles)
   - instance heo node needs to have redshift parms added (from shelf) and in Redshift Obj/Instancing change Instancing using to Redshift Point Clouds
 - material must be assigned to the instanced object (i.e. sphere), not to intancing geo node
+- motion blur on particles:
+  - instance needs to have rs object parms, but motion blur there is on by default
+  - in redshift ROP go to redshift/Motion Blur and enable Motion Blur
 
 
