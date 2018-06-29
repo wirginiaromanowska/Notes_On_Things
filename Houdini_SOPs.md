@@ -25,3 +25,5 @@
 ## 10. Facet
 - when edges on boxes look like normals are smoothed
 - have to switch "Unique Points"
+## 11. Resample
+- for curves use Treat Polygon As Subdivision Curves for smoothing result
