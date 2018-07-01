@@ -4,6 +4,9 @@
 
 
 ## 2. Want to try
-- fluid source particles
-- control velocity out and up with different channels
-- emit more particles (final particles) with channel
+- fluid source particles - works
+- control velocity out and up with different channels - works
+
+- emit more particles (final particles) with channel - need to add more particles or more divergence/fuel
+- snare is too sharp/too short - needs to be smoothed out, I already made it stronger
+
