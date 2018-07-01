@@ -260,3 +260,11 @@ removepoint(0, @ptnum);
 - noise($T, 0, 0) to drive uniform scale or pos. Can use scope to see the curve
 - 1e+06 = one milion, 4e+06 = four milions
 - @name=vel.*will select/delete/blast fields/volumes with that name
+## 23. Goups in VEX
+```
+i@group_include = 1;
+```
+- i@group - deeclare group
+- include - is the name of the group
+- 1- default value of one
+- this includes all the point
