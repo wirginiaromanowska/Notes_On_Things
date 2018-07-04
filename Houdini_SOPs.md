@@ -27,3 +27,6 @@
 - have to switch "Unique Points"
 ## 11. Resample
 - for curves use Treat Polygon As Subdivision Curves for smoothing result
+## 12. Rest
+- adds rest attribute that is the position at the start
+- useful when you want to color based on initial position
