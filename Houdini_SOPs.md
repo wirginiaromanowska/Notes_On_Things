@@ -32,3 +32,8 @@
 - useful when you want to color based on initial position
 ## 13. Time Warp 
 - to cycle run/walk animations
+## 14. Time blend
+- To make slow mo animation of skinned model (no changing topo)
+  - time wrap to cycle
+  - time blen
+  - time shift to cycle longer loop
