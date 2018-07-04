@@ -268,3 +268,8 @@ i@group_include = 1;
 - include - is the name of the group
 - 1- default value of one
 - this includes all the point
+## 24. LERP
+value1 * bias + value2 * (1 - bias) = result
+```
+@Cd = lerp(color1, color2, @bias);
+```
