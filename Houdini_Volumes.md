@@ -3,8 +3,9 @@
 - sdf (signed distance field) - good for collisions etc
   - 0 on the surface
   - negative outside
-  - positive inside
+  - positive inside - this seem to be a lie.... Looks like it's other way around...
   - it's opposite of native Houdini volumes
+  - gradient direction points towards voxel with the smaller value
 - fog - cheaper
 - vdb from polygons can source v from points to vel volume (Vector type needs to be Velocity)
 - can store vector fields
