@@ -37,3 +37,5 @@
   - time wrap to cycle
   - time blen
   - time shift to cycle longer loop
+## 15. Peak SOP
+- pushes points along direction of the normal
