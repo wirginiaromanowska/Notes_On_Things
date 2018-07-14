@@ -1,4 +1,6 @@
+## 0. General
 - U to go up
+- Ctrl + click to decouple rendering and display flags
 - node graph/view/show dependencies for selected nodes/or all nodes - to see dependencies (links) in dops
 - To see whites above 1 in viewport:
   - HDR rendering in viewport is in D/Effects - switches viewport to 16bit  
