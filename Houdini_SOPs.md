@@ -39,3 +39,9 @@
   - time shift to cycle longer loop
 ## 15. Peak SOP
 - pushes points along direction of the normal
+## 16. Ray SOP
+- to transfer attributes (like Cd) from points on mesh to poins filling volume inside the mesh along mesh normals
+  - mesh (with some color)
+  - fill with points from volume
+  - need normals on the points inside so need to vdb from polygons and vdb analysis (gradient) and then attrib from volume (points inside to the left, vdb analysys to the right
+  - ray SOP - original mesh to the right, attrib from vol to the left, transform points off, and import attrib from hits - Cd
