@@ -30,4 +30,8 @@ if(@ptnum != 0 && @ptnum != @numpt - 1 && rand(@ptnum) > ch("amount")) removepoi
   
   @P.y -= ch("amount") * @restlenght * random;
   ```
-  
+  ## 2. Apply image color to Cd
+  - mesh needs to have some UV's
+  - in point vop place uvcoords
+  - colormap (connect u and v)
+  - colormap to Cd
