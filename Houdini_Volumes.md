@@ -18,6 +18,8 @@
   - surface = 0
   - inside - negative
   - outside - positive valueas
+  - better results when using non intersecting geo - use boolean to remove intersecting geo
+  - default mode of contruction - scan - can produce lines - artifacts - switch it off to avoid artifacts
 ### c) heighfield 
 - is dense volume
 ## 2. VDB
