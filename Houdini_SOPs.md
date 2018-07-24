@@ -47,3 +47,5 @@
   - ray SOP - original mesh to the right, attrib from vol to the left, transform points off, and import attrib from hits - Cd
 ## 17. Poly Reduce
 - can use attribute (for example @retention) from painted color to make parts of mesh more or less poly reduced
+## 18 Boolean
+- to delete interior intersections from the geomjust plug geo in the first input
