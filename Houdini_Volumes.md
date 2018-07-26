@@ -54,8 +54,10 @@
 - volume slice from volume vop
 - volume trail with left input from volume slice and right input from volumevop with noise bvelocities
   - switch off detect range - this ir remapping colors to range on every frame, so you will not know when things are speeding up.
-
-
+## 8. VDB from particles
+- if point radius scale is smaller than minimum radius in * voxel size then it will not mesh it
+- to fix you can set the minimum radius to 0
+- good results with radius = voxel soze, or voxel size smaller than radius
   
   
   
