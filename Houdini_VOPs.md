@@ -25,5 +25,15 @@
 - multiply with existing vel
 - amplitude higher (8)
 - frequency higher (more detail)
-
+## 12. dot product
+- compares two vectors
+- if direction is the same or close you get 1 or close
+- if direction is opposite you get -1
+- if they are perpedicular you get 0
+## 13. cross product
+- needs two vectors
+- gives vector perpedicualr to the two vectors
+## 14. Quaterions
+- needs axis (vector) aroun which to rotate
+- needs angle - how much to rotate
 
