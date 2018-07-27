@@ -58,6 +58,8 @@
 - if point radius scale is smaller than minimum radius in * voxel size then it will not mesh it
 - to fix you can set the minimum radius to 0
 - good results with radius = voxel soze, or voxel size smaller than radius
-  
+## 9. VDB to see camera frustrum
+- vdb from camera
+- extend z far if too short
   
   
