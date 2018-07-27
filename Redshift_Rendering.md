@@ -67,5 +67,8 @@
 - motion blur on particles:
   - instance needs to have rs object parms, but motion blur there is on by default
   - in redshift ROP go to redshift/Motion Blur and enable Motion Blur
-
+## 9. Bringing attributes from geo to rs material
+- particle attribute lookup = rs point attribute
+- rs user data color
+- for instanced particles you need to make sure that Cd (or other attributes) are transfered in the instance geo node (otherwise they will not be read in rs material)
 
