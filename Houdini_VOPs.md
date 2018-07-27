@@ -36,4 +36,4 @@
 ## 14. Quaterions
 - needs axis (vector) aroun which to rotate
 - needs angle - how much to rotate
-
+- angle is in radiance (PI = 3.14 = half circle)
