@@ -273,3 +273,8 @@ value1 * bias + value2 * (1 - bias) = result
 ```
 @Cd = lerp(color1, color2, @bias);
 ```
+## 25 % mod
+```
+$F%4==0
+```
+- in impulse activation on all points this will generate particle every 4th frame
