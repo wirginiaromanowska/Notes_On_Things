@@ -56,3 +56,5 @@
 - to nurbs to smooth the curve
 ### c) carve
 - can use extract (pane) to exctract only one point at time from the curve using first U animation
+## 20. split
+- splits points into left aright group based on condition
