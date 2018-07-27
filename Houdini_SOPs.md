@@ -54,3 +54,5 @@
 - inside geo node to draw a curve projected to a plane
 ### b) convert
 - to nurbs to smooth the curve
+### c) carve
+- can use extract (pane) to exctract only one point at time from the curve using first U animation
