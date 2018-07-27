@@ -1,4 +1,4 @@
-## 1. Particles
+## 1. Particles generally
 - points with attributes
   - P
   - v
@@ -84,8 +84,15 @@ ingroup = @nage > 0.6;
 ## 13. Color based on speed
 - in POP network create POPColor
 - ramp = lenght(@v);
-
-
+## 14. POP collision detect
+- after source
+- collision - path to sop (ground)
+- behaviour - default is none (change to stop etc)
+- om stop they by default miss the collision by a bit, can use move to hit checkbox to align them perfectly
+- to record particles that just hit use group name "justHit"
+gives bunch of useful atributes to create groups:
+- @hittotal=0
+- @stopped=1
 
 
 
