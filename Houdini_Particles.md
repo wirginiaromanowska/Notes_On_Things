@@ -13,7 +13,9 @@
 ## 2. POP network
 ### a) popobject - particle bucket
 - some physical properties
-### b) popsolver - moves particles around
+### b) popsolver 
+- moves particles around
+- collision behaviour pane + standard ground plane - can get all hit attributes like hittotal
 ### c) POP source
 - can source only from selected group of polys
 - emission attribute - for example spawn by Cd (will spawn only ehre whiter is)
@@ -37,6 +39,13 @@
 - adds air resistance (drag)
 - wind
 - noise
+- use vexpressions, to affect by wind particles only before they land ont he ground
+```
+amp = (@hittotal==0)
+```
+- amp - amplitude of the wind
+- this will evaluate to 1 if particle didnt hit, so wind will be applied - can use multiplier if you want stronger wind
+- this will evaluate to 0 after particle hits, so even if using strenght multiplier - wind will be still 0.
 ## 4. Pop location
 - birth
 - velocity
