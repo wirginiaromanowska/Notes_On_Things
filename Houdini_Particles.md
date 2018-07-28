@@ -33,6 +33,10 @@
 - use instead of gravity dop, because gravity dop is slower (not multithreded), while pop force is faster.
 ### b) Drag 
 - goes right under source too
+### c) pop wind
+- adds air resistance (drag)
+- wind
+- noise
 ## 4. Pop location
 - birth
 - velocity
