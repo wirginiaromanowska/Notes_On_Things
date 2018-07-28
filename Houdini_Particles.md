@@ -30,7 +30,7 @@
 - can display vecttors in vieport when guide is on
 - two popforces - vectors will add
 - has noise built in, layer two forces with different swirl size
-- use as gravity
+- use instead of gravity dop, because gravity dop is slower (not multithreded), while pop force is faster.
 ### b) Drag 
 - goes right under source too
 ## 4. Pop location
