@@ -1,4 +1,6 @@
-## 1. Add sop - can add point, can move it with transform in viewport
+## 1. Add sop 
+- can add point, can move it with transform in viewport
+- In particles pane can replace points with particles
 ## 2. Point jitter (quick noise on curves, trails etc)
 ## 3. Measure 
 - can measure geometry curvature
