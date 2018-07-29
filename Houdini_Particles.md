@@ -106,6 +106,8 @@ ingroup = @nage > 0.6;
 gives bunch of useful atributes to create groups:
 - @hittotal=0
 - @stopped=1
+## 15 Replace points with particles
+- Add sop - particles pane - add particles
 
 
 
