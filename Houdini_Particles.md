@@ -109,10 +109,11 @@ gives bunch of useful atributes to create groups:
 ## 15 Replace points with particles
 - Add sop - particles pane - add particles
 ## 16 To make particles stick to point they are spawned from
-- in pop add point position
-- set time to $T
-- set point number to @ptnum
-- default operation to set always
+- put down a pop wrangle
+```
+@P = point("op:/obj/MorphGeo/OUT_SOURCE", "P", @id);
+```
+- id needs to match
 
 
   
