@@ -46,5 +46,10 @@
 ## 16. Dissolve something idea
 ## 17. flow along the surface
 ## 18. Watermelon, Airmelon, Earthmelon and Firemelon, Elemelons
+## 19. Castle or church riuns in water
+- quiet sea shore/beach, shallow water
+- blue bell flowers growing ont he ruins and its rooftoops
+- after sunset
+
 
 
