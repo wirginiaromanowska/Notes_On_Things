@@ -16,4 +16,6 @@
 ## 5. Trigger chop
 - after envelope
 - to set it to have trigger at certain beat
+- can control how long before next trigger
+- can offset
 
