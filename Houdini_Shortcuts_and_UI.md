@@ -44,3 +44,7 @@
  ## 6. Animation Editor (curves)
  - shift + click on animated or expression channel
  - space + G to center the curve in the view
+ ## 7. Fast copy/paste
+ - select node and alt drag
+ ## 8. Add direct dots to wires
+ - alt + click on wire, move the dot
