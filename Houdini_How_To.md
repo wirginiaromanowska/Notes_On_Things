@@ -1,5 +1,5 @@
 ## 1. Slacking wires
-- draw cyrve
+- draw curve
 - attrib wrangle to delete random points except first and last
 ```
 if(@ptnum != 0 && @ptnum != @numpt - 1 && rand(@ptnum) > ch("amount")) removepoint (0, @ptnum);
