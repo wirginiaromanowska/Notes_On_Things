@@ -5,3 +5,4 @@
 5. more sticky partciles examples https://vimeo.com/229470033
 6. Dalvi tutorials to buy: http://www.rohandalvi.net/home
 7. might know how to do geometry lights (different colors?): https://maxdepth.tv/product/houdini-particles-nebula/
+8. rbd as particles https://www.sidefx.com/tutorials/rbds-are-particles/
