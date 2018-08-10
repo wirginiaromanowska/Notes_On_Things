@@ -61,5 +61,5 @@
 ## 9. VDB to see camera frustrum
 - vdb from camera
 - extend z far if too short
-  
-  
+## 10. VDB Advec Point
+- can move points using volume vel
