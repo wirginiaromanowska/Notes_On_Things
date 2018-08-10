@@ -14,6 +14,7 @@
 ## 5. Trail sop
 - compute velocity
   - Velocity Approximation - Central difference - so you get some vel on first and last frame
+- connect as polygons with close rows off - makes splines/trails
 ## 6. Bound SOP
 - creates bounding box (geo) around incoming geo
 - can add more padding on all axis and directions
