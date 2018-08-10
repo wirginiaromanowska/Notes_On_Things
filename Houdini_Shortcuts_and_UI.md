@@ -48,3 +48,10 @@
  - select node and alt drag
  ## 8. Add direct dots to wires
  - alt + click on wire, move the dot
+## 9. Performance monitor
+- to compare performance of two nodes against each other merge the results of both
+- go to performance monitor pane
+- hit record in performance monitor pane
+- hit play in the timeline
+- stop after 10 frames or so
+- compare the times on the nodes
