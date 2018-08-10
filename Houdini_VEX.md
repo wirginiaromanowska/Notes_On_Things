@@ -283,3 +283,8 @@ $F%4==0
 float weight = pow(2, d);
 ```
 - two to the power of d
+## 27. volume sample
+```
+float val = volumesample(0, 0, sppos);
+```
+- volume that comes through first input (0), the primitive number (volume number) - first volume, sppos - variable made for sample position
