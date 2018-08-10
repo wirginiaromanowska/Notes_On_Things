@@ -278,3 +278,8 @@ value1 * bias + value2 * (1 - bias) = result
 $F%4==0
 ```
 - in impulse activation on all points this will generate particle every 4th frame
+## 26. pow
+```
+float weight = pow(2, d);
+```
+- two to the power of d
