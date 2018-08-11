@@ -9,4 +9,5 @@
 ## 2. HDR
 - go to interpret footage/color management
 - change to rec2020 - vimeo hdr
+- there is Color Settings in File/Project Settings
 
