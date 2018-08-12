@@ -288,3 +288,9 @@ float weight = pow(2, d);
 float val = volumesample(0, 0, sppos);
 ```
 - volume that comes through first input (0), the primitive number (volume number) - first volume, sppos - variable made for sample position
+## 28. normalized point number
+- to do ramps etc
+- @ptnum/@numpt - both are intigers so one of them needs to be converted to float
+```
+@ptnum / (@numpt * 1.0) // *1.0 will convert intiger to float
+```
