@@ -292,5 +292,7 @@ float val = volumesample(0, 0, sppos);
 - to do ramps etc
 - @ptnum/@numpt - both are intigers so one of them needs to be converted to float
 ```
-@ptnum / (@numpt * 1.0) // *1.0 will convert intiger to float
+@ptnum / (@numpt * 1.0) // *1.0 will convert intiger to float or you can create float variable
 ```
+
+
