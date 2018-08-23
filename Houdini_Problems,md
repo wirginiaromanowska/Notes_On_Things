@@ -1,0 +1,2 @@
+## 1. Doesn;t read audio files from nas
+- add HOUDINI_ACCESS_METHOD = 2 to houdini.env file
