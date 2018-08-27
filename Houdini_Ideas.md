@@ -52,7 +52,8 @@
 - after sunset
 ## 20. Barn explosion - wood pieces and explosion
 - slow motion and matrix around
-## 21 fpr ocean - shipwreck model on the beach
+## 21 for ocean - shipwreck model on the beach
 - https://www.cgtrader.com/3d-models/watercraft/historic/shipwreck-03
 ## 22 Blow up destroyed building 
 - https://www.cgtrader.com/3d-models/various/various-models/destroyed-building-083-am165
+- make the buildings colorfull https://www.cgtrader.com/3d-models/exterior/house/9-destroyed-buildings-pack
