@@ -71,4 +71,10 @@
 - particle attribute lookup = rs point attribute
 - rs user data color
 - for instanced particles you need to make sure that Cd (or other attributes) are transfered in the instance geo node (otherwise they will not be read in rs material)
-
+## 10. Better instancing
+- attrib wrangle after particles/points
+```
+f@pscale = 0.01; // set the pscale
+int rand_num = ceil(rand(@id) *3); //generating random number based on particle id, number is between 0 and 3, so we round it up with ceil function, because we have three meshes to pick from to instance to the points
+s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to let redshift know to instance the thing. it needs path to object level. On obj level we have three pig heads (with names pig1, pig2 and pig3)
+```
