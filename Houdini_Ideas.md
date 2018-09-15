@@ -57,3 +57,6 @@
 ## 22 Blow up destroyed building 
 - https://www.cgtrader.com/3d-models/various/various-models/destroyed-building-083-am165
 - make the buildings colorfull https://www.cgtrader.com/3d-models/exterior/house/9-destroyed-buildings-pack
+## 24 For running animal
+- make emissive trails from particles using original point id
+- render with smoke, smoke lit by the lines
