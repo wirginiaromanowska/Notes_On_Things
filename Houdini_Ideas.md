@@ -60,3 +60,7 @@
 ## 24 For running animal
 - make emissive trails from particles using original point id
 - render with smoke, smoke lit by the lines
+- three ways of getting lines/splines
+  - offset each particle back in time and connect the offset particles together
+  - volume trails - from particles, or from initial points on deer's mesh?
+  - particles emitted from the same point have the same orig_ptnum, so the can be connected
