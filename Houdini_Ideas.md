@@ -64,3 +64,4 @@
   - offset each particle back in time and connect the offset particles together
   - volume trails - from particles, or from initial points on deer's mesh?
   - particles emitted from the same point have the same orig_ptnum, so the can be connected
+  - offset the original point where particle is born from using the timeshift and merge in?
