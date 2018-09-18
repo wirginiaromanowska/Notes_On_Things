@@ -8,3 +8,6 @@
 8. rbd as particles https://www.sidefx.com/tutorials/rbds-are-particles/
 9. music and chops https://www.youtube.com/watch?v=8nwEqSTpLdM
 10. particles to bullet: https://lesterbanks.com/2016/08/easily-turn-houdini-particles-to-bullet-rigid-bodies/
+11. https://houdinitricks.com/category/tutorials/
+12. https://houdinitricks.com/category/training/
+13. https://houdinitricks.com/category/quicktips/
