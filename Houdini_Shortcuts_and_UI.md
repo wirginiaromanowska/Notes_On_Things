@@ -58,3 +58,8 @@
 ## 10. Quickmarks
 - in network click ctrl+1,2,3,4 or 5
 - then just toggle with the 1, 2, 3, 4, or 5 to go to that network or use +
+## 11. Editing keyframes
+- box handle
+  - select keys on curves
+  - press Y, manipulate
+  - Y+shift - can change pivot of manipulation
