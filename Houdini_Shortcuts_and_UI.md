@@ -63,3 +63,6 @@
   - select keys on curves
   - press Y, manipulate
   - Y+shift - can change pivot of manipulation
+## 12. Copy/Reference node
+- ctrl + alt + shift drag creates reference node - instance
+- alt - to create duplicate only
