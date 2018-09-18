@@ -46,6 +46,7 @@
  - space + G to center the curve in the view
  ## 7. Fast copy/paste
  - select node and alt drag
+ - ctrl + alt + shift drag creates reference node - instance
  ## 8. Add direct dots to wires
  - alt + click on wire, move the dot
 ## 9. Performance monitor
@@ -63,6 +64,8 @@
   - select keys on curves
   - press Y, manipulate
   - Y+shift - can change pivot of manipulation
-## 12. Copy/Reference node
-- ctrl + alt + shift drag creates reference node - instance
-- alt - to create duplicate only
+## 12. To create slider in the viewport
+- drag and drop parameter in the viewport
+- right click - bunch of options
+- can hide
+- to unhide click on the pivot tool icon on the left - it has list if hidden sliders.
