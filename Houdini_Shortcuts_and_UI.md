@@ -55,3 +55,6 @@
 - hit play in the timeline
 - stop after 10 frames or so
 - compare the times on the nodes
+## 10. Quickmarks
+- in network click ctrl+1,2,3,4 or 5
+- then just toggle with the 1, 2, 3, 4, or 5 to go to that network or use +
