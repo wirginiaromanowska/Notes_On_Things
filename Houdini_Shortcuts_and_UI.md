@@ -78,3 +78,24 @@
 - right click - bunch of options
 - can hide
 - to unhide click on the pivot tool icon on the left - it has list if hidden sliders.
+## 13. keep floating windows on top
+- for mplay and cirve editor to stay on top
+- Houdini Preferences/General User Interface/Keep floating windows on top checkbox on
+## 14. Wireframe and shaded in vieport
+- toggle with w
+- wireframe on top of shaded shift+w
+## 15. Saving colors to swatch
+- color picker
+- select a color
+- go to swatch area on top
+- press alt+left mouse to add the color (scroll down in swatch view to see it
+- press ctrl+left to delete the color from swatch
+## 16. Redner and diplsy flags
+- press 1 to set display flag
+- press to to set render flag 
+## 17 Views
+- full screen - ctrl+b
+- spacebar+1 perspective
+- spacebar+2 top, hitting one more time - bottom view
+- spacebar+3 front and back
+- spacebar+4 left and right
