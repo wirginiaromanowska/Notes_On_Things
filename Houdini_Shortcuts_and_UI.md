@@ -60,10 +60,19 @@
 - in network click ctrl+1,2,3,4 or 5
 - then just toggle with the 1, 2, 3, 4, or 5 to go to that network or use +
 ## 11. Editing keyframes
-- box handle
+- box handle in curve editor
   - select keys on curves
   - press Y, manipulate
   - Y+shift - can change pivot of manipulation
+- on timeline
+  - shift + left mouse drag to select
+  - q to deselect everything, or click anywhere on timeline
+  - to deselect a portion of selection press shift + right mouse and drag
+  - to scale the selected keys - middle mouse drag in selection
+  - to hold (move ) a single key - middle mouse drag, then when happy with position press k
+  - mute keys - shift+e
+  - unmute - ctrl+e
+  - toggle between two last keyframes seen - shift+right mouse in the frame count field on the left from timeline
 ## 12. To create slider in the viewport
 - drag and drop parameter in the viewport
 - right click - bunch of options
