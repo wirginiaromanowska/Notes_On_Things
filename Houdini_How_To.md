@@ -35,3 +35,6 @@ if(@ptnum != 0 && @ptnum != @numpt - 1 && rand(@ptnum) > ch("amount")) removepoi
   - in point vop place uvcoords
   - colormap (connect u and v)
   - colormap to Cd
+  - uv's are vertex attrib where Cd is point attrib
+    - either run point vop over verts
+    - promote uv to be point attrib (method first match to avoid sims?)
