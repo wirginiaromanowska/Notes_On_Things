@@ -92,7 +92,7 @@
 - press ctrl+left to delete the color from swatch
 ## 16. Redner and diplsy flags
 - press 1 to set display flag
-- press to to set render flag 
+- press 2 to set render flag 
 ## 17 Views
 - full screen - ctrl+b
 - spacebar+1 perspective
