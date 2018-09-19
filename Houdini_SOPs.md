@@ -61,6 +61,13 @@
 - can use extract (pane) to exctract only one point at time from the curve using first U animation
 ## 20. split
 - splits points into left aright group based on condition
+## 21. Grouping curve points
+- goup sop, points
+```
+@curveuv=1
+```
+- 0  is first point
+- 1 is last point
 ## 21 Copy Stamp
 - copy to points can't do a lot of things
 - based on ptnum change bend angle
