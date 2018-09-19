@@ -87,3 +87,5 @@
   - or rand(@ptnum) * 100
   - can use fit functions etc
   
+## 22. Fuse sop
+- can merge points or unmerge points )separate primitives (unique pane)
