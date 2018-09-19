@@ -68,6 +68,8 @@
 ```
 - 0  is first point
 - 1 is last point
+## 22. Smoothing curve
+- convert sop - set to nurbs
 ## 21 Copy Stamp
 - copy to points can't do a lot of things
 - based on ptnum change bend angle
