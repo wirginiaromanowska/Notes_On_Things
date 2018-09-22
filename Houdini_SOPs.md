@@ -89,3 +89,5 @@
   
 ## 22. Fuse sop
 - can merge points or unmerge points )separate primitives (unique pane)
+## 23. Attrib from map sop
+- apply texture to point color
