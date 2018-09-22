@@ -278,7 +278,9 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - keyframe sourcing for both, temp stays for longer
   - fuel starts at 1 goes to 2 and then to 0 over few frames
   - temperaure starts at 1 and then slowly eases in to 0 over 60 frame
-
+## 25. Pyro slowmo
+- set Substeps on the dopnet to as many samples as yopu need per frame e.g. 50 (this will change shape of the sim
+- after dopimport fieelds use timeshift with $FF*0.02
 
 
 
