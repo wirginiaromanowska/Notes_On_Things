@@ -281,6 +281,7 @@ v@Cd = set(@density, 0, 1.0 - @density);
 ## 25. Pyro slowmo
 - set Substeps on the dopnet to as many samples as yopu need per frame e.g. 50 (this will change shape of the sim
 - after dopimport fieelds use timeshift with $FF*0.02
+- switch off intiger option ont he timeshift
 
 
 
