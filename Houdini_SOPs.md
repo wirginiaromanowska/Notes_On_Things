@@ -37,9 +37,9 @@
 - to cycle run/walk animations
 ## 14. Time blend
 - To make slow mo animation of skinned model (no changing topo)
-  - time wrap to cycle, e.g 1-55, 1-55
+  - time wrap to cycle, e.g 1-55, 1-55 with cycle at start and end
   - time blend (default settings)
-  - time wrap to cycle longer loop e.g. 1 - 55, 1 -110
+  - time wrap to cycle longer loop e.g. 1 - 55, 1 -110 with extend at start and end
 ## 15. Peak SOP
 - pushes points along direction of the normal
 ## 16. Ray SOP
