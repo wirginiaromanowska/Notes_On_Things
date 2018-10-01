@@ -91,3 +91,5 @@
 - can merge points or unmerge points )separate primitives (unique pane)
 ## 23. Attrib from map sop
 - apply texture to point color
+## 24. Polyframe sop
+- can generate normals, tangents and bitangets on curves
