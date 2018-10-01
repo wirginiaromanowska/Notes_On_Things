@@ -294,5 +294,6 @@ float val = volumesample(0, 0, sppos);
 ```
 @ptnum / (@numpt * 1.0) // *1.0 will convert intiger to float or you can create float variable
 ```
-
+## 29. Range 0-1 tp 1-0
+- 1 - (stuff that gets 0-1 range)
 
