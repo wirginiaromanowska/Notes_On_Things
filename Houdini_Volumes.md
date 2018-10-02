@@ -63,3 +63,10 @@
 - extend z far if too short
 ## 10. VDB Advec Point
 - can move points using volume vel
+## 11. Make vel volume
+- model
+- vdb from poly
+- plus in surface attributes
+- attribute point v
+- VDB name is vel
+- Vector Type is displacement/velocity
