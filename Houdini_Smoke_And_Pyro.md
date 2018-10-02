@@ -168,6 +168,8 @@ v@Cd = set(@density, 0, 1.0 - @density);
   - S. k. is using bound SOP with some padding on the geo (not on fluid source)
 - Padding to 1 for fast exploding/moving fluids
 - Delay frmaes to 1 when size shrinks and grows again fast
+- by default it will resize till size set in smoke object
+- to have unlimited resizing - go to max bounds tab and turn off "clamp to maximum"
 ## 12. Reseting blue cache simulation
 - DOP changes
 - not always by referenced in DOP sOP changes
@@ -200,6 +202,7 @@ v@Cd = set(@density, 0, 1.0 - @density);
 ## 14. Gass dissipate microsolver
 - difusion = blurr 0.05
 - evaporation rate = disspation 0.1
+- goes to second input - pre-solve
 ## 15. Expansion = Divergence without combustion
 - With combustion: fuel + temperature = expansion + fire + smopke + more temperature
 - in SOPS 
@@ -282,6 +285,12 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - set Substeps on the dopnet to as many samples as yopu need per frame e.g. 50 (this will change shape of the sim
 - after dopimport fieelds use timeshift with $FF*0.02
 - switch off intiger option ont he timeshift
+## 26. Microsolvers
+- dissipate - goes to second input - pre-solve
+- turbulence to third - velocity update
+- velocity modifying solvers go to advect input
+- solvers that add density and velocity go to last input
+- resize and other stuff that doesn;t directly affect sim goes to pre-solve
 
 
 
