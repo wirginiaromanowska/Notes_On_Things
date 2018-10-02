@@ -291,7 +291,9 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - velocity modifying solvers go to advect input
 - solvers that add density and velocity go to last input
 - resize and other stuff that doesn;t directly affect sim goes to pre-solve
-
+## 27. Source volume
+- can use vdb
+- or houdini volumes
 
 
 
