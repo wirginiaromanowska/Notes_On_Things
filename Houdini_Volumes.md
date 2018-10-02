@@ -70,3 +70,7 @@
 - attribute point v
 - VDB name is vel
 - Vector Type is displacement/velocity
+## 12. Volume velocity sop
+- has presets for noise and vortex
+## 13. Volume vex
+- @density = noise(@P)
