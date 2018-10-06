@@ -20,5 +20,13 @@
   - Use maximum render quality on
   - Target Bitrate 20
   - Maximum Bitrate 40
+## 3. For instagram
+- burn everything to tga in AE
+- get tga and music in new comp
+- export as standard vimeo 1080 preset in media encoder
+- put video in dropbox
+- Phone instagram destrys stereo, so for videos use android device
+- import video from dropbox to downloads
+- open instagram and upload new video from downloads
 
 
