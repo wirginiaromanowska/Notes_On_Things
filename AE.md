@@ -12,6 +12,7 @@
   - Working space Rec2020 Gamma 2.4
 - Interpret Footage, Color Management, Assign Profile Rec2020 Gamma 2.4
 - Adobe Media Encoder
+  - Start with vimeo 1080 preset
   - Profile High10
   - Level 52
   - Rec2020 COlor Primaries on
