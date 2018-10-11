@@ -294,6 +294,14 @@ v@Cd = set(@density, 0, 1.0 - @density);
 ## 27. Source volume
 - can use vdb
 - or houdini volumes
+## 28. Get color in smoke sim
+- start with poly object that has Cd on points
+- vdb from poligons, new field named Cd
+- in pyro sim insert a vector field node between smoke object and pyro solver, set data name to Cd, set resolution to dimentions
+- create source volume, point it to vdb, in sop to dop bindings change velocity to bind from Cd to Cd
+- in smoke object, set it to multifield, in multifield tab set density to be density and diffuse to be Cd
+- create gas advect field, attach to advection input in pyro sim and field is Cd, and velocity field to vel
+- gass dissipate microsolver to blurr color over time
 
 
 
