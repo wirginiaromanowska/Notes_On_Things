@@ -6,3 +6,6 @@
 ## 3. Weld
 - stitches for cloth
 - if @weld = -1 the stitches are gone
+## 4. Vellum post process
+- to smooth out
+- can add after sim cache to disc
