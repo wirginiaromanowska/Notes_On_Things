@@ -297,3 +297,11 @@ float val = volumesample(0, 0, sppos);
 ## 29. Range 0-1 tp 1-0
 - 1 - (stuff that gets 0-1 range)
 
+## 30 sample_hemisphere function
+```
+vector2 u = rand(@Time * 111 + 43);
+v@v = sample_hemisphere({0, 0, 1}, 5, u) * {10, 10, 10};
+```
+- sample_hemisphere(center, bias, rnadom)
+- bias can be number between (-1) and infinity, 0 means unbiased
+- * {10, 10, 10} is just to make vel faster
