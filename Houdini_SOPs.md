@@ -93,3 +93,10 @@
 - apply texture to point color
 ## 24. Polyframe sop
 - can generate normals, tangents and bitangets on curves
+## 25. Straighten Up
+- select faces that should face down if the thing was standing correctly 
+- press enter
+- model will be rotated
+## 26. Box, sphere
+- they have imput
+- if you plug any geo in the input - the box will become a bounding box for the geo, and sphere will become bounding sphere for the input geo
