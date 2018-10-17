@@ -82,3 +82,4 @@ s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to
 - increase samples
 - if floor is noisy (from light/shadow), need to increase Brute Force GI rays
 - try irradiance cache with increased rays
+- more info https://github.uconn.edu/pages/mjr14019/redshift-docs/render-options/noise/
