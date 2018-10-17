@@ -78,3 +78,7 @@ f@pscale = 0.01; // set the pscale
 int rand_num = ceil(rand(@id) *3); //generating random number based on particle id, number is between 0 and 3, so we round it up with ceil function, because we have three meshes to pick from to instance to the points
 s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to let redshift know to instance the thing. it needs path to object level. On obj level we have three pig heads (with names pig1, pig2 and pig3)
 ```
+## 11. Noise
+- increase samples
+- if floor is noisy (from light/shadow), need to increase Brute Force GI rays
+- try irradiance cache with increased rays
