@@ -110,3 +110,11 @@
 ## 29. Blend shape
 - two meshes with exactly the same topology/number of verts 
 - can blend between pose 1 and pose 2 of riggerd/posed character
+## 30. SOP SOLVER
+- to create growth "algorithm"
+- bunch of points
+- group some and make @active attribute=1 on the selected
+- sop solver
+- inside sop solver add attribute transfer and connect both inputs to the prev frame
+- source group @active=0
+- destination group @active=0
