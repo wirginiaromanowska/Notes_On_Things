@@ -102,3 +102,8 @@
 ## 27. Box, sphere
 - they have imput
 - if you plug any geo in the input - the box will become a bounding box for the geo, and sphere will become bounding sphere for the input geo
+## 28. Point deform sop
+- get animated geo
+- get t-pose geo
+- scatter points on the t-pose model
+- use point deform sop to transfer the points (1st input) from t- pose (second input) to animated mesh (3rd input)
