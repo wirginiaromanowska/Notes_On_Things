@@ -119,3 +119,4 @@
 - source group @active=0
 - destination group @active=0
 - attributes (points) active
+- source and destination group types set to points
