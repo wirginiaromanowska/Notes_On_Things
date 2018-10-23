@@ -120,3 +120,4 @@
 - destination group @active=0
 - attributes (points) active
 - source and destination group types set to points
+- distance threshold on atrib transfer will dictate how fast the growth is spreading
