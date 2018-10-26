@@ -126,3 +126,6 @@
 - creates velocity with various options
 ## 32. H17 Stroke sop
 - can draw multiple curves
+## 33. Point Replicate sop
+- needs points (at least one)
+- adds bunch of points around existing point
