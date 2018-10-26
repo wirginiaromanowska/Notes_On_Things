@@ -121,3 +121,8 @@
 - attributes (points) active
 - source and destination group types set to points
 - distance threshold on atrib transfer will dictate how fast the growth is spreading
+## 31. H17 Point velocity sop
+- needs mesh with normals
+- creates velocity with various options
+## 32. H17 Stroke sop
+- can draw multiple curves
