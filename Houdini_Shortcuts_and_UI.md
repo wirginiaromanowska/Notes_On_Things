@@ -65,6 +65,7 @@
   - press Y, manipulate
   - Y+shift - can change pivot of manipulation
 - on timeline
+  - H17 to move keyfram on the timeline - middle mouse and drag
   - shift + left mouse drag to select
   - q to deselect everything, or click anywhere on timeline
   - to deselect a portion of selection press shift + right mouse and drag
