@@ -14,4 +14,5 @@
 - needs rest pos (old pos) that doesn't intersect with collision geo
   - can just transform out of the way
   - create attrib OlpPos and transfer it to the not transformed geo
-  
+## 6. Vellum solver
+- can go inside and add pop wind and pop fluid even if this is after vellum configure cloth
