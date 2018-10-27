@@ -22,4 +22,19 @@
 - it does not rely on any rbd data - it's post process thing
 - points automatically inherit velocity from source rbd
 - can source volume (stamp points mode)
+## 6. H17 Convex decomposition sop
+- chair example
+- decrease max concavity
+## 7. H17 Extract rigid transform
+- object
+- fractures
+- animated the whole thing
+- on left side timeshift set to first frame and pack prims below
+- on right side extract rigid transform - left input from timeshift, right input from animated geo
+- below is transform pieces, left input from packed prims, middle input form extract rigid transform
+- below create atrib - active
+  - intiger
+  - class point
+  - value $F >= 75 means it's 0 and then turns 1 after frame 75
+  - animate animated attrib the opposite way
 
