@@ -118,4 +118,12 @@
 - each bar is one snapshot
 - position the camera and then press eye and then select first bar
 - reposition camera, press eye and select second bar etc
+## 21. H17 Visualizers
+- for voronoi fracture or for pyro source - it's on the right side looks like google maps thing
+## 22. Middle mouse click on node vs i (info) from radial menu
+- with i you get more info and floating window stays on
+- there is checkbox that allaws to see what attributes are different from previous node "show modifications to attributes"
+  - crossed - removed
+  - underlined - newly created
+  - bold - modified
 
