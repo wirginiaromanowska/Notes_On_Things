@@ -136,3 +136,12 @@
   - interpolation cubic
   - under volumes - blend mode best is advected
   - on top reduce the speed from 1 to 0.1
+## 35 Falloff sop
+- use group before to select stuff
+- three modes
+  - surface falloff - will not bleed to the nearby surface if it's not directly connected
+  - edge
+  - radius (old)
+## 36. Graph color sop
+- can pick 4 - 5 colors and color prims so none of the same colors are neighbours.
+  
