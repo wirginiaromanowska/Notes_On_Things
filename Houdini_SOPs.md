@@ -129,3 +129,10 @@
 ## 33. Point Replicate sop
 - needs points (at least one)
 - adds bunch of points around existing point
+## 34. Retime sop
+- can retime anything, poly, rbd, characters, pyro, flip etc
+- best retime from cached files
+- pyro
+  - interpolation cubic
+  - under volumes - blend mode best is advected
+  - on top reduce the speed from 1 to 0.1
