@@ -100,10 +100,22 @@
 - spacebar+2 top, hitting one more time - bottom view
 - spacebar+3 front and back
 - spacebar+4 left and right
-## 18. Handle in world/object space
+## 18. Handle in world/object space, pivot and center of the object
 - right click on handle and find the options in the menu under Align Handle - or hit M key
-- press single quote key ' to change position of pivont of the object
+- press single quote key ' to change position of pivont of the object, press ' again to reatach pivot to object
+- press insert key to change center of the object
 - press ; key to snap and align selected geo to different geo
 - to snap rotation - rotation step - (45 degree by default) press ctrl ahile rotating
 - to move by certain amount of units - translate step - press ctrl while moving
 - these default settings (rotation and translation step) can be changed when right click on the handle and go to handle parameters
+## 19. Construction plane
+- use / key to create new and use with ; key to align it to any poly
+- right click on the construction plane tool on the right side to get more options or to display handle
+## 20. Memory toolbar
+- snapshots of vieport - n have different construction planes and different positions of persp camera
+- go to Persp in right corner of vieport and swithc on memory toolbar
+- eye - is the safe
+- each bar is one snapshot
+- position the camera and then press eye and then select first bar
+- reposition camera, press eye and select second bar etc
+
