@@ -102,3 +102,7 @@
 - spacebar+4 left and right
 ## 18. Handle in world/object space
 - right click on handle and find the options in the menu under Align Handle - or hit M key
+- press ; key to snap and align selected geo to different geo
+- to snap rotation (45 degree by default) press ctrl ahile rotating
+- to move by certain amount of units press ctrl while moving
+- these default settings can be changed when right click on the handle and go to handle parameters
