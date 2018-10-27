@@ -144,4 +144,7 @@
   - radius (old)
 ## 36. Graph color sop
 - can pick 4 - 5 colors and color prims so none of the same colors are neighbours.
-  
+## 37. Hole sop
+- when you have grid and bunch of smaller grids where you want to have holes
+## 38. Winding number
+- see Jeff's illume webinar on top 10 H17
