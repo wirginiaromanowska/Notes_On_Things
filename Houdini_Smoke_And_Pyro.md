@@ -302,6 +302,11 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - in smoke object, set it to multifield, in multifield tab set density to be density and diffuse to be Cd
 - create gas advect field, attach to advection input in pyro sim and field is Cd, and velocity field to vel
 - gass dissipate microsolver to blurr color over time
+## 29. H17 Sourcing
+- geo
+- pyro source (scatters points)
+- attribute noise
+- volume rasterize attributes
 
 
 
