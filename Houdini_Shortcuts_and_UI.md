@@ -101,4 +101,4 @@
 - spacebar+3 front and back
 - spacebar+4 left and right
 ## 18. Handle in world/object space
-- right click on handle and find the options in the menu under Align Handle
+- right click on handle and find the options in the menu under Align Handle - or hit M key
