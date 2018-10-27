@@ -105,4 +105,4 @@
 - press ; key to snap and align selected geo to different geo
 - to snap rotation - rotation step - (45 degree by default) press ctrl ahile rotating
 - to move by certain amount of units - translate step - press ctrl while moving
-- these default settings can be changed when right click on the handle and go to handle parameters
+- these default settings (rotation and translation step) can be changed when right click on the handle and go to handle parameters
