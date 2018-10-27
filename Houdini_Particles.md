@@ -106,14 +106,20 @@ ingroup = @nage > 0.6;
 gives bunch of useful atributes to create groups:
 - @hittotal=0
 - @stopped=1
-## 15 Replace points with particles
+## 15. Replace points with particles
 - Add sop - particles pane - add particles
-## 16 To make particles stick to point they are spawned from
+## 16. To make particles stick to point they are spawned from
 - put down a pop wrangle
 ```
 @P = point("op:/obj/MorphGeo/OUT_SOURCE", "P", @id);
 ```
 - id needs to match
+## 17. Pop fluid dop
+- wire by merging with emitter source, but last, just before going to pop solver
+- adds volume to particles (particles have collision pscale)
+- replaces pop interact
+- projection type - update velocity
+- velocity blend 0.8 makes it very viscous
 
 
   
