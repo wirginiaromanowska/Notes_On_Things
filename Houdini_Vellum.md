@@ -9,6 +9,7 @@
 ## 4. Vellum post process
 - to smooth out
 - can add after sim cache to disc
+- this is what can transfer low res sim to high res render
 ## 5. Detangle
 - needs pscale attrib
 - needs rest pos (old pos) that doesn't intersect with collision geo
@@ -16,3 +17,4 @@
   - create attrib OlpPos and transfer it to the not transformed geo
 ## 6. Vellum solver
 - can go inside and add pop wind and pop fluid even if this is after vellum configure cloth
+
