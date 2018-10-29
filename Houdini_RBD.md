@@ -37,4 +37,7 @@
   - class point
   - value $F >= 75 means it's 0 and then turns 1 after frame 75
   - animate animated attrib the opposite way
+## 8. Workflow with constraints
+- first assemble to create name attribute and connect inside edges
+- second assemble to create packed prims (and nothing else)
 
