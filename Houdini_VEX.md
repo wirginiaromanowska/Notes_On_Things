@@ -305,3 +305,11 @@ v@v = sample_hemisphere({0, 0, 1}, 5, u) * {10, 10, 10};
 - sample_hemisphere(center, bias, rnadom)
 - bias can be number between (-1) and infinity, 0 means unbiased
 - * {10, 10, 10} is just to make vel faster
+## Comparing previous frame to current frame to see the change of state
+- in sop solver
+- whatever calculations are done in current frame (based on prev frame)
+- to raw prev frame
+- attrib wrangle like this:
+```
+i@transition = i@active != point(1, "active", @ptnum);
+```
