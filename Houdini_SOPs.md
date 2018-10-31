@@ -107,6 +107,7 @@
 - get t-pose geo
 - scatter points on the t-pose model
 - use point deform sop to transfer the points (1st input) from t- pose (second input) to animated mesh (3rd input)
+- use Maximum points setting in point deform (lower it) to make sure that the point match the animated mesh more tightly
 ## 29. Blend shape
 - two meshes with exactly the same topology/number of verts 
 - can blend between pose 1 and pose 2 of riggerd/posed character
