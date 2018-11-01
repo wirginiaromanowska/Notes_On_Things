@@ -151,3 +151,5 @@
 - see Jeff's illume webinar on top 10 H17
 ## 39. Clean sop
 - remove unused points checkbox removes points that are floating - not attached to mesh in any way
+## 40. Attribute randomize
+- can set random pscale with a ramp - few big and bunch of small ones
