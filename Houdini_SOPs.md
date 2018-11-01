@@ -149,3 +149,5 @@
 - when you have grid and bunch of smaller grids where you want to have holes
 ## 38. Winding number
 - see Jeff's illume webinar on top 10 H17
+## 39. Clean sop
+- remove unused points checkbox removes points that are floating - not attached to mesh in any way
