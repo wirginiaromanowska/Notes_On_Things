@@ -321,3 +321,6 @@ v@v = sample_hemisphere({0, 0, 1}, 5, u) * {10, 10, 10};
 ```
 i@transition = i@active != point(1, "active", @ptnum);
 ```
+## 34. Centroid expression in translate node
+- old $CEX
+- new centroid(0, D_X)
