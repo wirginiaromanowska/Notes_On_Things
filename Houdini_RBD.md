@@ -40,4 +40,15 @@
 ## 8. Workflow with constraints
 - first assemble to create name attribute and connect inside edges
 - second assemble to create packed prims (and nothing else)
-
+## 9. To apply pop forces in RBD in dop
+- use rigidbodysolver not bullet solver
+- plug pop forces into middle input
+## 10. To selectively change non active to active
+- set i@active=0 after packed primitives in SOP's
+- in dopnet create multiple solver
+- connect sop solver
+  - in sop solver make group (box) selection of the geometry
+  - animate the selection
+  - attrib wrangle on the group to change i@active to 1
+  
+  
