@@ -50,5 +50,7 @@
   - in sop solver make group (box) selection of the geometry
   - animate the selection
   - attrib wrangle on the group to change i@active to 1
-  
+## 11. To bring previous sim as collision to new sim
+- bring pieces as rbd fractured objects - not as packed objects, set collision to concave if needed
+
   
