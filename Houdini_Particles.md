@@ -126,7 +126,8 @@ gives bunch of useful atributes to create groups:
   - 4 dimentions
   - distribution - inside sphere
 - for spin over time use w - angular velocity
-  - 
+  - set random from 5 to 10 - this will spin in one direction
+  - and then set another attrib randomize on w as well with multiply as action and set it to be intiger -1 to 1?
 
 
 
