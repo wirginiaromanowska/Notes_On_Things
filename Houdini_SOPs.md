@@ -153,3 +153,6 @@
 - remove unused points checkbox removes points that are floating - not attached to mesh in any way
 ## 40. Attribute randomize
 - can set random pscale with a ramp - few big and bunch of small ones
+## 41. Instance sop
+- packed prim
+- doesn't update orient attrib
