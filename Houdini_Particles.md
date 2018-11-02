@@ -120,6 +120,14 @@ gives bunch of useful atributes to create groups:
 - replaces pop interact
 - projection type - update velocity
 - velocity blend 0.8 makes it very viscous
+## 18. Orient and w
+- for initial orientation use orient
+  - attrib randomize on points that particles are emitted from
+  - 4 dimentions
+  - distribution - inside sphere
+- for spin over time use w - angular velocity
+  - 
+
 
 
   
