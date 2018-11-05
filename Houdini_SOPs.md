@@ -164,3 +164,5 @@
 ## 43. Gameres sop
 - game dev tools sop
 - from hi res scan model to low res plus texture bake
+## 44. Reverse sop
+- reverses normals
