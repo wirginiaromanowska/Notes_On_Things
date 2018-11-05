@@ -59,4 +59,4 @@
 - part of game tools
 - lets you cativate rbd and forces by volume
 - putting multiple rbd directors see more https://vimeo.com/298265924 at 1h:15min
-  
+## 14. H17 rbd cluster node?
