@@ -161,3 +161,6 @@
 - to throw bunch of rocks or twigs around
 - scatter then simulate and dry the paint
 - see this: https://vimeo.com/298265924 at about 25min in
+## 43. Gameres sop
+- game dev tools sop
+- from hi res scan model to low res plus texture bake
