@@ -52,5 +52,11 @@
   - attrib wrangle on the group to change i@active to 1
 ## 11. To bring previous sim as collision to new sim
 - bring pieces as rbd fractured objects - not as packed objects, set collision to concave if needed
-
+## 12. RBD material fracture
+- part of game tools
+- does recursive fracturing
+## 13. rbd direector sop
+- part of game tools
+- lets you cativate rbd and forces by volume
+- putting multiple rbd directors see more https://vimeo.com/298265924 at 1h:15min
   
