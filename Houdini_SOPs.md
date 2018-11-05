@@ -156,3 +156,8 @@
 ## 41. Instance sop
 - packed prim
 - doesn't update orient attrib
+## 42. Physics painter
+- game tools
+- to throw bunch of rocks or twigs around
+- scatter then simulate and dry the paint
+- see this: https://vimeo.com/298265924 at about 25min in
