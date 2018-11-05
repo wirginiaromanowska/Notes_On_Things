@@ -129,3 +129,5 @@
 ## 23. to focus on swlwcted - G
 ## 24. To switch on backface culling (switch off double-sided
 - press d and then go to optimisation paen, see the checkbox
+## 25. Hotkey manager
+- click on the menu item with ctrl+shift+alt
