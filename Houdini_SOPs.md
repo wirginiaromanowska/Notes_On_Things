@@ -166,3 +166,5 @@
 - from hi res scan model to low res plus texture bake
 ## 44. Reverse sop
 - reverses normals
+## 45. Draw curve sop
+- shows a plane that you can draw curve on - you can adjust it - xy, zx, and move it up etc.
