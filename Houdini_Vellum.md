@@ -19,3 +19,6 @@
 - can go inside and add pop wind and pop fluid even if this is after vellum configure cloth
 ## 7. cloth
 - in cloth constraints you can pin to animation - just select the verts
+## 8 Hair
+- use draw curve to draw few strokes
+- then go to shelf and use hair
