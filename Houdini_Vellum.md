@@ -64,6 +64,18 @@
 - falls color mode
 ## 16. Friction
 - to make things (cloth) more sticky - increatse statick threshold in forces pane in vellum solver to 10 (goes over 1)
+## 17. Apply different forces and constraints when working with Vellum in sops
+- dive in vellum solver sop
+- this is actually lik ein dops
+- add popforce and link it to the force_output null
+- add cvellum constraint property under the force link to the null
+- can animate thse parms
+## 18 emitting multiple vellum objects
+- use dop workflow (shelf)
+- vellum source has emission type, choose continiuous 
+- with activation every nth frame $SF%10 == 1
+- to have different rotation of every bacon that's emitted you can put animated transform on the bacon source (before setup the constraints), and then whatever is rotation on the frame - that will be sourced
+
 
   
 
