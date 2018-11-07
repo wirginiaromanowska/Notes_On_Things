@@ -3,3 +3,5 @@
 ## 2. UV auto sim
 - based on curvature
 - tries to preserve symmetry
+## 3. Quickshade sop
+- to see the texture in viewport
