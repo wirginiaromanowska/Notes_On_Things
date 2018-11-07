@@ -62,7 +62,8 @@
 - add thicknes extrude
 - visualisation options
 - falls color mode
-
+## 16. Friction
+- to make things (cloth) more sticky - increatse statick threshold in forces pane in vellum solver to 10 (goes over 1)
 
   
 
