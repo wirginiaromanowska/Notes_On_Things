@@ -38,3 +38,32 @@ if(@ptnum != 0 && @ptnum != @numpt - 1 && rand(@ptnum) > ch("amount")) removepoi
   - uv's are vertex attrib where Cd is point attrib
     - either run point vop over verts
     - promote uv to be point attrib (method first match to avoid sims?)
+## 3. Cut out bacon shape from bacon texture
+- in geo context put down copnet
+ - method set to volume slice
+ - dive in and put down file
+ - file bacon.jpg
+- traces op
+  - link the above cop in the cop path
+  - lower down the trheshold
+  - produces outline with few holes
+  = Add point texture checkbox on for later
+- measure sop after trace sop 
+  - to measure and remove tiny holes
+  - set type to area
+  - adds @area atribute - can see it in spreadsheet - two big areas (bacon) and bunch of tiny (holes)
+- blast
+  - group type primitive
+  - @area>0.1
+  - delete non-selected
+- resample to have less points
+- planar patch from curve
+  - resample curves on
+  - interior edge lenght 0.02
+- UV quickshade
+  - bacon.jpg
+ 
+
+  
+  
+  
