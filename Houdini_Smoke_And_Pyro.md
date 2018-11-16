@@ -170,6 +170,8 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - Delay frmaes to 1 when size shrinks and grows again fast
 - by default it will resize till size set in smoke object
 - to have unlimited resizing - go to max bounds tab and turn off "clamp to maximum"
+- use delay of "1" to make sure that it finds the smoke after is being emitted before the container shrinks to nothing.
+  - this makes it wait 1 frame befor eit shrinks and in that time container is keept to it's max size defined in smoke object.
 ## 12. Reseting blue cache simulation
 - DOP changes
 - not always by referenced in DOP sOP changes
