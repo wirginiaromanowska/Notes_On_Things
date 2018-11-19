@@ -122,6 +122,11 @@
 - attributes (points) active
 - source and destination group types set to points
 - distance threshold on atrib transfer will dictate how fast the growth is spreading
+- the attributes you want to alter in the solver must be initialized before the solbver, not in yhe solver.
+  - solver to change the attrib value based on previous frame must use prev frame - and prev frame takes info from outside the solver
+- examples http://www.tokeru.com/cgwiki/index.php?title=The_solver_sop
+- if reading animated attributes (animated outside the solver sop) you need to use input1 - this fetches geo every frame, unless pre frame that fetches geao only on the first frame
+  - have to fetch geo from first input to check if @active is changing for example
 ## 31. H17 Point velocity sop
 - needs mesh with normals
 - creates velocity with various options
