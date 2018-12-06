@@ -33,6 +33,7 @@
 ## 12. Rest
 - adds rest attribute that is the position at the start
 - useful when you want to color based on initial position
+- can add rest normals from drop down
 ## 13. Time Warp 
 - to cycle run/walk animations
 ## 14. Time blend
