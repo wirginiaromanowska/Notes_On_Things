@@ -174,3 +174,6 @@
 - reverses normals
 ## 45. Draw curve sop
 - shows a plane that you can draw curve on - you can adjust it - xy, zx, and move it up etc.
+## 46. Scatter sop
+- to have differently scattered points use $F in seed 
+- to have randomly shown on eor 0 points use rand($F) < 0.5 in force total count - will spawn 1 point 50% of time
