@@ -130,6 +130,9 @@ f@opinput1_foo // fetch second input foo
 float max_curvature = detail(1, "curvature_max", 0);
 ```
 ### d) getattribute or getattrib functions (see Houdini help)
+### e) getting N attribute both ways:
+- ```@opinput1_N``` - normal from 1st input (counting from 0)
+- ```point(1, @N, ptnum)```
 ## 10. Interesting VEX functions
 ```
 vector frequency = chv("Frequency");
