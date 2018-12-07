@@ -74,3 +74,5 @@
 - has presets for noise and vortex
 ## 13. Volume vex
 - @density = noise(@P)
+## 14. Volume rasterize sop
+- can create vel volume from N attribute
