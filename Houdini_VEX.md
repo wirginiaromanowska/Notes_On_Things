@@ -327,3 +327,6 @@ i@transition = i@active != point(1, "active", @ptnum);
 ## 34. Centroid expression in translate node
 - old $CEX
 - new centroid(0, D_X)
+## 35. to have randomly 1 and 0 numbers generated
+- for particles id
+- ```f@rand_zero_one = rand(i@id +357) > 0.5;```
