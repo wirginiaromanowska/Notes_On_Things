@@ -179,3 +179,5 @@
 - to have randomly shown on eor 0 points use rand($F) < 0.5 in force total count - will spawn 1 point 50% of time
 ## 47. Remesh
 - increasing number of iterations will make the result mesh to have more even vert distribution
+## 48. Grid
+- poly and conncetivity to rows - gives bunch of lines/edges, usefull for hair
