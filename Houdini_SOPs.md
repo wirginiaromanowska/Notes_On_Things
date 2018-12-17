@@ -181,3 +181,5 @@
 - increasing number of iterations will make the result mesh to have more even vert distribution
 ## 48. Grid
 - poly and conncetivity to rows - gives bunch of lines/edges, usefull for hair
+## 49. solid conform
+- looks like tetrahedralize
