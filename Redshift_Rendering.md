@@ -83,3 +83,13 @@ s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to
 - if floor is noisy (from light/shadow), need to increase Brute Force GI rays
 - try irradiance cache with increased rays
 - more info https://github.uconn.edu/pages/mjr14019/redshift-docs/render-options/noise/
+## 12. Rays and sampling
+- primary rays 
+  - from camera throught every pixel
+  - to have smooth anti-aliased edges dof and motion blur need to have multiple rays through on epixel
+- secondary rays
+  - from each primary ray hitting any rendering surface shoot secondary rays to define color to render on that surface, looking fo rlights, reflections etc.
+  - total rays = primary rays * secondary rays
+- in redshift where unified smpling is - this is only for primary rays
+- redshift shoots minimum rays (min samples) and shoots more rays either until max samples or if the threshold i slower than specified
+- lower the sample threshold to get less noise
