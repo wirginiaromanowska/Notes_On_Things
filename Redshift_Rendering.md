@@ -93,3 +93,11 @@ s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to
 - in redshift where unified smpling is - this is only for primary rays
 - redshift shoots minimum rays (min samples) and shoots more rays either until max samples or if the threshold i slower than specified
 - lower the sample threshold to get less noise
+- samples on a light - are secondary rays
+- brute force gi rays - are secondary rays
+- if you have noise where light turns to shadow up the samples on the light
+## 13. DOF - get the focus distance 
+- if not using houdini camera focus distance
+  - click on camera, press enter
+  - right click on the camera handle and change to focus handle
+  - can move the pink box in viepoert - this is where focus is
