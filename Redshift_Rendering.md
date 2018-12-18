@@ -101,3 +101,5 @@ s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to
   - click on camera, press enter
   - right click on the camera handle and change to focus handle
   - can move the pink box in viepoert - this is where focus is
+## 14. RS material blender
+- blend between two materials (vefore going to output node in RS material)
