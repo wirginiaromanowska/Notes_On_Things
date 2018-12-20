@@ -62,7 +62,9 @@ if(@ptnum != 0 && @ptnum != @numpt - 1 && rand(@ptnum) > ch("amount")) removepoi
   - interior edge lenght 0.02
 - UV quickshade
   - bacon.jpg
- 
+## 4. Hexagonal mesh on sphere
+- poly sphere
+- divid and use compute dual
 
   
   
