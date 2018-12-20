@@ -64,7 +64,8 @@ if(@ptnum != 0 && @ptnum != @numpt - 1 && rand(@ptnum) > ch("amount")) removepoi
   - bacon.jpg
 ## 4. Hexagonal mesh on sphere
 - poly sphere
-- divid and use compute dual
+- or remesh with more interations (to get the same size triangles)
+- divide and use compute dual
 
   
   
