@@ -183,3 +183,6 @@
 - poly and conncetivity to rows - gives bunch of lines/edges, usefull for hair
 ## 49. solid conform
 - looks like tetrahedralize
+## 50. Convert line
+- converst edges of poly model to lines that are connected
+- putting resample (with max segments 5 or so will make the segments not connected
