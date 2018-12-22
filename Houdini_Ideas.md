@@ -4,6 +4,7 @@
 - attributes from animated texture/video
 ## 2. Something growing up and ovefilling a container or a cup
 ## 3. Bunch of dice rolling and they all end up with the same roll result
+- picture made of dice - each side has different amount of dots = different amounts of black and white. This can make a picture, break it and placy backwards.
 ## 4. Framed painting of a pot
 - when it falls frame breaks
 - when it falls the pot breaks
