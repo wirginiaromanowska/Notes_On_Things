@@ -309,6 +309,13 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - pyro source (scatters points)
 - attribute noise
 - volume rasterize attributes
+## in H17 emitting from particles
+- add density attribute, e.g. dependent on particle age
+- add trail (lenght depends on how strong you want the emission to be)
+- volume rasterize attrib
+  - attributes - density and
+  - particle scale should be twice voxel size
+- in dopnet add pyro solver, smoke object
 
 
 
