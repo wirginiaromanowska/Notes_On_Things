@@ -131,3 +131,5 @@
 - press d and then go to optimisation paen, see the checkbox
 ## 25. Hotkey manager
 - click on the menu item with ctrl+shift+alt
+## 26. Color picker
+- on the color swatch press middle mouse and hold, and move mouse to the color you want to pick from
