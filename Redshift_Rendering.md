@@ -125,5 +125,9 @@ s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to
 - chick strip
 - max subdive can be 0 if the detail is in geo
 - tweak the scale
+## 19. Camera rig
+- lights and background can be connected to camera - parented unde rit
+- check keep position when parenting
+
 
 
