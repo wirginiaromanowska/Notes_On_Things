@@ -116,5 +116,9 @@ s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to
   - rs material builder
   - dive in
   - volume and plug in volume out
+## 17. Basic rop setup
+- global ilum - brit force
+- optimisations increase reflect, refract and combined to 8, 8, 16
+- in sampling options max samples to 512
 
 
