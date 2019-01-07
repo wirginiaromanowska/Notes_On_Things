@@ -103,3 +103,18 @@ s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to
   - can move the pink box in viepoert - this is where focus is
 ## 14. RS material blender
 - blend between two materials (vefore going to output node in RS material)
+## 15. Rendering particles - new way
+- in redshift obj parms
+- render object as particles
+- set up the pscale to something small
+## 16. Creating materials in mat context
+- for particles/mesh materials:
+  - create RS Material Builder
+  - dive inside
+  - create basic rs material and connect to out surface
+- for volume materials
+  - rs material builder
+  - dive in
+  - volume and plug in volume out
+
+
