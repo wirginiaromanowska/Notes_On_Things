@@ -120,5 +120,10 @@ s@instance = "/obj/pig" + itoa(rand_num); // @instance is a special attribute to
 - global ilum - brit force
 - optimisations increase reflect, refract and combined to 8, 8, 16
 - in sampling options max samples to 512
+## 18. Rendering lines, paths, curves, strands, hair
+- in redshift obj/strands check the "render as strands"
+- chick strip
+- max subdive can be 0 if the detail is in geo
+- tweak the scale
 
 
