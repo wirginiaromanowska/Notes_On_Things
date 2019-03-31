@@ -30,14 +30,15 @@ if(@ptnum != 0 && @ptnum != @numpt - 1 && rand(@ptnum) > ch("amount")) removepoi
   
   @P.y -= ch("amount") * @restlenght * random;
   ```
-  ## 2. Apply image color to Cd
-  - mesh needs to have some UV's
-  - in point vop place uvcoords
-  - colormap (connect u and v)
-  - colormap to Cd
-  - uv's are vertex attrib where Cd is point attrib
-    - either run point vop over verts
-    - promote uv to be point attrib (method first match to avoid sims?)
+## 2. Apply image color to Cd
+ - mesh needs to have some UV's
+ - in point vop place uvcoords
+ - colormap (connect u and v)
+ - colormap to Cd
+ - uv's are vertex attrib where Cd is point attrib
+   - either run point vop over verts
+   - promote uv to be point attrib (method first match to avoid sims?)
+ - or use attrib from map sop
 ## 3. Cut out bacon shape from bacon texture
 - in geo context put down copnet
  - method set to volume slice
