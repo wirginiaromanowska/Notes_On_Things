@@ -186,3 +186,5 @@
 ## 50. Convert line
 - converst edges of poly model to lines that are connected
 - putting resample (with max segments 5 or so will make the segments not connected
+## 51. Attrib from map
+- appli image to point Cd
