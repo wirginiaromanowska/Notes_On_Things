@@ -188,3 +188,5 @@
 - putting resample (with max segments 5 or so will make the segments not connected
 ## 51. Attrib from map
 - appli image to point Cd
+## 52. Transform SOP
+- put ch("sizey")*0.5 in the center Y to always have bottom of the model on the grid
