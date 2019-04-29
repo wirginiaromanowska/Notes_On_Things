@@ -37,3 +37,6 @@
 - needs axis (vector) aroun which to rotate
 - needs angle - how much to rotate
 - angle is in radiance (PI = 3.14 = half circle)
+## 15. Displace along normal
+- offsets points along the normal
+- can randomise the amount (rand based on point id)
