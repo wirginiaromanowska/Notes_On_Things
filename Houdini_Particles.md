@@ -130,6 +130,13 @@ gives bunch of useful atributes to create groups:
   - and then set another attrib randomize on w as well with multiply as action and set it to be intiger -1 to 1?
 ## 19. Spawn particles from particles 
 - pop replicate
+## 20. Forces connecting
+- wind or pop drag don;t need imput
+- connect directly in the merge with the pop source
+- connect on the right of the source if you want the force to affect particles in the source
+- comnect on the left if you don't
+- order of forces connections matters - executed from left to right
+- can use if you want the drag to affect one force but not the other (drag affecting velocity/wind, but not gravity)
 
 
   
