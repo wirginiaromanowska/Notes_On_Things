@@ -67,7 +67,9 @@ if(@ptnum != 0 && @ptnum != @numpt - 1 && rand(@ptnum) > ch("amount")) removepoi
 - poly sphere
 - or remesh with more interations (to get the same size triangles)
 - divide and use compute dual
-
+## 5. Houdini spreading
+- flames spreading on  a shape
+- https://vimeo.com/channels/pqhoudini/326990817
   
   
   
