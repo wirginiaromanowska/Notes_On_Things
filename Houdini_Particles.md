@@ -137,6 +137,19 @@ gives bunch of useful atributes to create groups:
 - comnect on the left if you don't
 - order of forces connections matters - executed from left to right
 - can use if you want the drag to affect one force but not the other (drag affecting velocity/wind, but not gravity)
-
-
-  
+## 21. Custom radial attractor/gravity
+- in pop wrangle
+```
+float mass = 10;  
+vector origin = {0, 0, 0}; 
+float dist = max(distance(v@P, origin), 2.0);  
+float gravityStrength = mass / pow(dist, 0.7); 
+vector gravity = (origin - v@P) * gravityStrength;  
+@force += gravity;
+```
+## 22. To use vortex force in pops
+- make line/curve in sops
+- deform with noise or whatever
+- vortex force attribs sop 
+- point vop if you need to change radius (orbitrad attr) with height (@P.y)
+- in pops vortex force and sop geometry with path to sop above
