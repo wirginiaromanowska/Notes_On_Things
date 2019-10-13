@@ -11,5 +11,6 @@
 - settings for curves (modulation itp)
   - in source midi channles 1
   - in note Velocity = Note Amplitude
+  - in note Note name n, note scompe 1
   - in control controller name = c, Comntroller type = Moduilation Wheel, or another type is expressiom control
   
