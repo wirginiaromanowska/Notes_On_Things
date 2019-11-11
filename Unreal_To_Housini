@@ -1,0 +1,7 @@
+##1. Vector Firlds
+- Get a box.
+- Put your… points in that box. As in, randomly scatter points in the box. Lots of them.
+- Apply the noise of your choice to the normals of those points.
+- Transfer that normal directions to a volume, but rename the normal attribute to velocity.
+- Bring the volume into a dopnet as a fluidsource.
+- Export the result of the dopnet with the FGA Exporter OTL from Orbolt.
