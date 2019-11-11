@@ -1,4 +1,4 @@
-##1. Vector Firlds
+1. Vector Firlds
 - Get a box.
 - Put your… points in that box. As in, randomly scatter points in the box. Lots of them.
 - Apply the noise of your choice to the normals of those points.
