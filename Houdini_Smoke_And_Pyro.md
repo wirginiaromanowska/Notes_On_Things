@@ -332,7 +332,7 @@ v@Cd = set(@density, 0, 1.0 - @density);
 - if blend amount is high - dcale of the fire looks smaller
 ## 36. QUALITY
 - pyro solver/advanced tab - increase min and max substebs (2-3)
-in projection/multigrid iterations set to higher number like 2.
+- in projection/multigrid iterations set to higher number like 2.
 
 
 
