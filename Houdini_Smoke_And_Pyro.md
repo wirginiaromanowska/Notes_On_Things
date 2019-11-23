@@ -321,6 +321,19 @@ v@Cd = set(@density, 0, 1.0 - @density);
 ## 32. Gas damp 
 - like drag but for smoke
 - 3rd imput of the pyro solver
+## 33. Temperature diffusion 
+- keep it low otherwise fire will blend into one stream
+## 34. To burn fast and all fueal
+- ignition temp - 0
+- burn rate 1
+- fuel ineficiency - 0
+## 35. Smoke pane - fire scale
+- low heat cut off - all fire (even low heat) will create smoke
+- if blend amount is high - dcale of the fire looks smaller
+## 36. QUALITY
+- pyro solver/advanced tab - increase min and max substebs (2-3)
+in projection/multigrid iterations set to higher number like 2.
+
 
 
 
